@@ -1,0 +1,30 @@
+Project title:
+Teck PEAK Launcher
+
+Suggested repository name:
+teck-peak-launcher
+
+About / Description:
+A retro Famicom-style PEAK mod launcher for Windows, with a curated mod bundle, offline Vietnamese/English localization, and package integrity checks.
+
+Suggested topics:
+peak, peak-game, modding, mod-launcher, bepinex, windows, winforms, csharp, vietnamese, localization, retro, famicom
+
+Suggested release tag:
+v1.0.0-beta.1
+
+Release title:
+Teck PEAK — Famicom VI / EN Edition
+
+Suggested release status:
+Pre-release — live in-game localization verification is still pending.
+
+Release assets:
+Teck-PEAK-VI-EN.zip
+Teck-PEAK-VI-EN-SHA256.txt
+
+Use RELEASE-NOTES.md as the release description.
+Use README.md as the repository's root README.
+Upload docs/images/launcher.png with the README so its screenshot renders.
+Upload the release ZIP's source/ folder if you want source browsing on GitHub.
+Do not copy a blanket license over the bundled third-party packages.
