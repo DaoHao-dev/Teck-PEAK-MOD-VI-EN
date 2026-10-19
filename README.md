@@ -1,5 +1,12 @@
 # Teck PEAK Launcher
 
+[⬇ Download for Windows — v1.0.0-beta.1](https://github.com/DaoHao-dev/Teck-PEAK-MOD-VI-EN/releases/download/v1.0.0-beta.1/Teck-PEAK-VI-EN.zip)
+
+[Release notes](https://github.com/DaoHao-dev/Teck-PEAK-MOD-VI-EN/releases/tag/v1.0.0-beta.1) · [SHA-256 checksum](https://github.com/DaoHao-dev/Teck-PEAK-MOD-VI-EN/releases/download/v1.0.0-beta.1/Teck-PEAK-VI-EN-SHA256.txt)
+
+Extract the entire ZIP, then open `Teck-PEAK.exe`. Keep the `packages` folder beside the EXE. This is a beta release.
+
+
 ### Retro hardware. A simpler way to manage PEAK mods.
 
 A community Windows launcher for **PEAK**, styled after a classic red-and-ivory Famicom console. Install a curated mod bundle, choose your utilities, and switch supported mod text between **Vietnamese and English**.
