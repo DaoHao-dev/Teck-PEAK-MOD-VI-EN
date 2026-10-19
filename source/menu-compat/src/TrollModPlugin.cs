@@ -1,0 +1,425 @@
+﻿using System;
+using System.Reflection;
+using System.Collections.Generic;
+using BepInEx;
+using BepInEx.Configuration;
+using BepInEx.Logging;
+using HarmonyLib;
+using Photon.Pun;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+namespace PeakTrollMod
+{
+    [BepInProcess("PEAK.exe")]
+    [BepInPlugin(Guid, Name, Version)]
+    public sealed class TrollModPlugin : BaseUnityPlugin
+    {
+        public const string Guid = "com.dougl.peaktrollmod";
+        public const string Name = "PEAK Troll Mod";
+        public const string Version = "0.5.0.1";
+
+        internal static TrollModPlugin Instance;
+        internal ModConfig Settings;
+        internal CapabilityRegistry Capabilities;
+        internal PlayerManager Players;
+        internal TrollNetworkManager Network;
+        internal PlayerActions Actions;
+        internal NoWaitManager NoWait;
+        internal RecoveryManager Recovery;
+        internal QuickReconnectManager QuickReconnect;
+        internal ModConfigBrowser ModBrowser;
+        internal TeamStatusManager TeamStatus;
+        internal QuickBackpackManager QuickBackpack;
+        internal BetterSpectatingManager BetterSpectating;
+        internal PlayerPreferencesManager PlayerPreferences;
+        internal LobbyReadinessManager LobbyReadiness;
+        internal ActionShortcutManager Shortcuts;
+        internal UnlimitedLobbyManager UnlimitedLobby;
+        internal StaminaEffectPreviewManager StaminaEffectPreview;
+        internal SurvivalAssistManager SurvivalAssist;
+        internal LuggageNavigationManager LuggageNavigation;
+        internal ClimbForecastManager ClimbForecast;
+        internal PartySupplyAdvisorManager PartySupplyAdvisor;
+        internal HotkeyConflictDoctor HotkeyDoctor;
+        internal InfiniteRescueClawManager InfiniteRescueClaw;
+        internal HungerAmplifierManager HungerAmplifier;
+        internal InfiniteJetpackFuelManager InfiniteJetpackFuel;
+        internal BiggerBackpackManager BiggerBackpack;
+        internal BackpackProtectionManager BackpackProtection;
+        internal StartAsSkeletonManager StartAsSkeleton;
+        internal ScoutEspManager ScoutEsp;
+        internal ProfileManager Profiles;
+        internal LobbyProfileSyncManager LobbyProfileSync;
+        internal AntiSoftlockManager AntiSoftlock;
+        internal MindControlManager MindControl;
+        internal SpawnManager Spawns;
+        internal MirageManager Mirages;
+        internal PingPlacementManager PingPlacement;
+        internal PhantomPingManager PhantomPings;
+        internal AudioManager Audio;
+        internal AppearanceManager Appearance;
+        internal ProgressionManager Progression;
+        internal CampfireTrollManager CampfireTroll;
+        internal HelicopterTrollManager HelicopterTroll;
+        internal ChaosManager Chaos;
+        internal ExpeditionDirectorManager Director;
+        internal SummitSaboteurManager SummitSaboteur;
+        internal ResetManager Reset;
+        internal TrollUIManager Ui;
+        internal UiFontManager UiFonts;
+
+        private Harmony _harmony;
+        private float _nextDynamicRefresh;
+        private float _nextMenuToggle;
+        private float _nextMenuInputWarning;
+        private bool _menuKeyWasPressed;
+        private bool _wasInRoom;
+        private bool _shutdown;
+
+        private void Awake()
+        {
+            try { Initialize(); }
+            catch (Exception error)
+            {
+                Logger.LogError("Teck compatibility: initialization failed; disabling F7 plugin to avoid repeated errors. " + error);
+                try { Shutdown(); } catch (Exception cleanup) { Logger.LogWarning(cleanup.Message); }
+                enabled = false;
+            }
+        }
+
+        private void Initialize()
+        {
+            Instance = this;
+            Settings = new ModConfig(base.Config);
+            UiFonts = new UiFontManager(Logger); UiFonts.Load();
+            ModBrowser = new ModConfigBrowser(); ModBrowser.Refresh();
+            Capabilities = new CapabilityRegistry(Logger); Capabilities.Discover();
+            Players = new PlayerManager(Logger);
+            Audio = new AudioManager(Logger, this);
+            PlayerPreferences = new PlayerPreferencesManager(Logger, Players, Audio, Settings);
+            LobbyReadiness = new LobbyReadinessManager(Players);
+            Mirages = new MirageManager(Logger);
+            Actions = new PlayerActions(Logger, Players, Capabilities, Audio);
+            NoWait = new NoWaitManager(Logger, Players, Actions, Capabilities, Settings);
+            Recovery = new RecoveryManager(Logger, Players, Actions);
+            Profiles = new ProfileManager(Settings);
+            LobbyProfileSync = new LobbyProfileSyncManager(Profiles, Players);
+            AntiSoftlock = new AntiSoftlockManager(Players, Recovery, Settings, Logger);
+            QuickReconnect = new QuickReconnectManager(Logger, Settings, Capabilities);
+            TeamStatus = new TeamStatusManager(Players, Settings, ModBrowser, PlayerPreferences);
+            QuickBackpack = new QuickBackpackManager(Logger, Settings, ModBrowser);
+            BetterSpectating = new BetterSpectatingManager(Logger, Players, Actions, Settings);
+            Spawns = new SpawnManager(Logger, Players, Capabilities);
+            Shortcuts = new ActionShortcutManager(Settings);
+            UnlimitedLobby = new UnlimitedLobbyManager(Logger, Settings, Actions, Spawns);
+            StaminaEffectPreview = new StaminaEffectPreviewManager(Settings, Logger);
+            SurvivalAssist = new SurvivalAssistManager(Settings, Logger);
+            LuggageNavigation = new LuggageNavigationManager(Settings, Logger);
+            ClimbForecast = new ClimbForecastManager(Settings, Logger);
+            PartySupplyAdvisor = new PartySupplyAdvisorManager(Players, Settings, Logger);
+            HotkeyDoctor = new HotkeyConflictDoctor(ModBrowser, Settings, Logger);
+            InfiniteRescueClaw = new InfiniteRescueClawManager(Settings, Logger);
+            HungerAmplifier = new HungerAmplifierManager(Logger, Players, Actions);
+            InfiniteJetpackFuel = new InfiniteJetpackFuelManager(Settings, Logger);
+            BiggerBackpack = new BiggerBackpackManager(Settings, Logger);
+            BackpackProtection = new BackpackProtectionManager(Settings, Logger);
+            StartAsSkeleton = new StartAsSkeletonManager(Settings, Logger);
+            ScoutEsp = new ScoutEspManager(Players, Settings, Logger);
+            Network = new TrollNetworkManager(Logger, Players, Actions, Mirages, Audio, HungerAmplifier);
+            LobbyProfileSync.AttachNetwork(Network);
+            MindControl = new MindControlManager(Logger, Players, Network, Settings, Capabilities);
+            PingPlacement = new PingPlacementManager(Logger, Mirages, Players, Network);
+            PhantomPings = new PhantomPingManager(Logger, Players);
+            Appearance = new AppearanceManager(Logger);
+            Progression = new ProgressionManager(Logger, Players, Settings);
+            CampfireTroll = new CampfireTrollManager(Logger, Players, Actions, Settings);
+            HelicopterTroll = new HelicopterTrollManager(Logger, Settings);
+            Chaos = new ChaosManager(Logger, Players, Network, Actions, Mirages, Audio, Spawns);
+            Director = new ExpeditionDirectorManager(Logger, Players, Actions, Spawns, Chaos, Network, Settings);
+            Reset = new ResetManager(Logger, Actions, Mirages, Spawns, Audio, Appearance);
+            SummitSaboteur = new SummitSaboteurManager(Logger, Players, Actions, Network, Spawns, Capabilities);
+            Ui = new TrollUIManager(this);
+
+            _harmony = new Harmony(Guid); _harmony.PatchAll(typeof(TrollModPlugin).Assembly);
+            SceneManager.sceneLoaded += OnSceneLoaded;
+            Players.Refresh();
+            _wasInRoom = PhotonNetwork.InRoom;
+            Logger.LogInfo(Name + " " + Version + " loaded for PEAK " + Application.version + ".");
+        }
+
+        private void Update()
+        {
+            if (_shutdown || Ui == null) return;
+            if (Ui.IsOpen && Input.GetKeyDown(KeyCode.Escape)) Ui.ForceClose();
+            HandleMenuInput();
+            Players.Tick(); PlayerPreferences.Tick(); LobbyReadiness.Tick(); QuickReconnect.Tick(); Network.Tick(); LobbyProfileSync.Tick(); MindControl.Tick(); Actions.Tick(); Recovery.Tick(); AntiSoftlock.Tick(); NoWait.Tick(); QuickBackpack.Tick(Ui.IsOpen); BetterSpectating.Tick(Ui.IsOpen); StaminaEffectPreview.Tick(); SurvivalAssist.Tick(); InfiniteJetpackFuel.Tick(); BiggerBackpack.Tick(); StartAsSkeleton.Tick(); HungerAmplifier.Tick(); LuggageNavigation.Tick(); ScoutEsp.Tick(); ClimbForecast.Tick(); PartySupplyAdvisor.Tick(); HotkeyDoctor.Tick(); InfiniteRescueClaw.Tick(); Audio.Tick(); Mirages.Tick(); PhantomPings.Tick(); Spawns.Tick(); UnlimitedLobby.Tick(); Progression.Tick(); HelicopterTroll.Tick(); Chaos.Tick(); Director.Tick(); SummitSaboteur.Tick(); Ui.Tick();
+
+            bool inRoom = PhotonNetwork.InRoom;
+            if (_wasInRoom && !inRoom) Reset.ResetAll();
+            _wasInRoom = inRoom;
+            if (Time.unscaledTime >= _nextDynamicRefresh)
+            {
+                _nextDynamicRefresh = Time.unscaledTime + 10f;
+                Capabilities.RefreshDynamic(); Actions.RefreshItemCatalog();
+            }
+        }
+
+        private void HandleMenuInput()
+        {
+            KeyboardShortcut shortcut = Settings.MenuKey.Value;
+            bool shortcutDown = false;
+            bool shortcutHeld = false;
+            try
+            {
+                shortcutDown = shortcut.IsDown();
+                shortcutHeld = shortcut.IsPressed();
+            }
+            catch (Exception ex)
+            {
+                if (Time.unscaledTime >= _nextMenuInputWarning)
+                {
+                    _nextMenuInputWarning = Time.unscaledTime + 2f;
+                    Warn("Configured menu shortcut could not be read: " + ex.Message);
+                }
+            }
+
+            bool rawHeld = false;
+            try { if (shortcut.MainKey != KeyCode.None) rawHeld = Input.GetKey(shortcut.MainKey); }
+            catch { }
+            bool rawEdge = rawHeld && !_menuKeyWasPressed;
+            _menuKeyWasPressed = rawHeld;
+
+            if (Settings.MenuActivation.Value == MenuActivationMode.Toggle)
+            {
+                if ((shortcutDown || rawEdge) && Time.unscaledTime >= _nextMenuToggle)
+                {
+                    _nextMenuToggle = Time.unscaledTime + .15f;
+                    Ui.Toggle();
+                }
+            }
+            else Ui.SetOpen(shortcutHeld || rawHeld);
+        }
+
+        private void OnGUI() { if (_shutdown) return; bool menuOpen=Ui!=null&&Ui.IsOpen; if (TeamStatus != null) TeamStatus.Draw(menuOpen); if (BetterSpectating != null) BetterSpectating.Draw(menuOpen); if (StaminaEffectPreview != null) StaminaEffectPreview.Draw(menuOpen); if (LuggageNavigation != null) LuggageNavigation.Draw(menuOpen); if (ScoutEsp != null) ScoutEsp.Draw(menuOpen); if (ClimbForecast != null) ClimbForecast.Draw(menuOpen); if (MindControl != null) MindControl.Draw(menuOpen); if (Ui != null) Ui.Draw(); }
+
+        private void FixedUpdate() { if (_shutdown) return; if (Actions != null) Actions.FixedTick(); if (InfiniteRescueClaw != null) InfiniteRescueClaw.FixedTick(); }
+
+        private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+        {
+            if (Reset != null) Reset.ResetAll();
+            if (Players != null) Players.Refresh();
+            if (Capabilities != null) Capabilities.RefreshDynamic();
+            if (Actions != null) Actions.RefreshItemCatalog();
+            if (NoWait != null) NoWait.OnSceneLoaded();
+            if (Recovery != null) Recovery.OnSceneLoaded();
+            if (BetterSpectating != null) BetterSpectating.OnSceneLoaded();
+            if (UnlimitedLobby != null) UnlimitedLobby.ResetScene();
+            if (StaminaEffectPreview != null) StaminaEffectPreview.ResetScene();
+            if (SurvivalAssist != null) SurvivalAssist.ResetScene();
+            if (InfiniteJetpackFuel != null) InfiniteJetpackFuel.ResetScene();
+            if (BiggerBackpack != null) BiggerBackpack.ResetScene();
+            if (StartAsSkeleton != null) StartAsSkeleton.OnSceneLoaded();
+            if (LuggageNavigation != null) LuggageNavigation.ResetScene();
+            if (ScoutEsp != null) ScoutEsp.ResetScene();
+            if (AntiSoftlock != null) AntiSoftlock.ResetScene();
+            if (LobbyProfileSync != null) LobbyProfileSync.Reset();
+            if (ClimbForecast != null) ClimbForecast.ResetScene();
+            if (PartySupplyAdvisor != null) PartySupplyAdvisor.ResetScene();
+            if (InfiniteRescueClaw != null) InfiniteRescueClaw.ResetScene();
+            if (HungerAmplifier != null) HungerAmplifier.Reset();
+            if (MindControl != null) MindControl.Reset();
+            if (Ui != null) Ui.ResetVisualAssets();
+            if (CampfireTroll != null) CampfireTroll.ResetScene();
+            if (SummitSaboteur != null) SummitSaboteur.Reset();
+            if (Director != null) Director.OnSceneLoaded();
+            if (HelicopterTroll != null) HelicopterTroll.ResetScene();
+            DebugLog("Scene loaded: " + scene.name);
+        }
+
+        private void OnDisable()
+        {
+            if (_shutdown) return;
+            if (Ui != null) Ui.ForceClose();
+            if (Reset != null) Reset.ResetAll();
+        }
+
+        private void OnEnable() { if (!_shutdown && Ui != null) Ui.RecoverClosedState(); }
+        private void OnDestroy() { Shutdown(); }
+        private void OnApplicationQuit() { Shutdown(); }
+
+        private void Shutdown()
+        {
+            if (_shutdown) return; _shutdown = true;
+            SceneManager.sceneLoaded -= OnSceneLoaded;
+            if (Ui != null) Ui.ForceClose();
+            if (LuggageNavigation != null) LuggageNavigation.ResetScene();
+            if (ScoutEsp != null) ScoutEsp.ResetScene();
+            if (AntiSoftlock != null) AntiSoftlock.ResetScene();
+            if (LobbyProfileSync != null) LobbyProfileSync.Reset();
+            if (ClimbForecast != null) ClimbForecast.ResetScene();
+            if (PartySupplyAdvisor != null) PartySupplyAdvisor.ResetScene();
+            if (InfiniteRescueClaw != null) InfiniteRescueClaw.RestoreAll();
+            if (InfiniteJetpackFuel != null) InfiniteJetpackFuel.ResetScene();
+            if (BiggerBackpack != null) BiggerBackpack.ResetScene();
+            if (StartAsSkeleton != null) StartAsSkeleton.RestoreOwnedSkeleton();
+            if (HungerAmplifier != null) HungerAmplifier.Reset();
+            if (MindControl != null) MindControl.Reset();
+            if (SummitSaboteur != null) SummitSaboteur.Reset();
+            if (Director != null) Director.Stop(true);
+            if (Reset != null) Reset.ResetAll();
+            if (Audio != null) Audio.Dispose();
+            if (Network != null) Network.Dispose();
+            if (_harmony != null) _harmony.UnpatchSelf();
+            if (UiFonts != null) UiFonts.Dispose();
+            Instance = null;
+        }
+
+        internal void DebugLog(string message) { if (Settings != null && Settings.DebugLogging.Value) Logger.LogInfo("[PTM] " + message); }
+        internal void Warn(string message) { Logger.LogWarning("[PTM] " + message); }
+    }
+
+    [HarmonyPatch]
+    internal static class ImmortalityPatch
+    {
+        private static IEnumerable<MethodBase> TargetMethods()
+        {
+            string[] names = { "Die", "DieInstantly", "DieInstantlyLocal", "RPCA_SetDead", "RPCA_Die", "PassOut", "RPCA_PassOut", "PassOutInstantly" };
+            for (int i = 0; i < names.Length; i++)
+            {
+                MethodInfo method = AccessTools.Method(typeof(Character), names[i], new Type[0]);
+                if (method != null) yield return method;
+            }
+        }
+
+        private static bool Prefix(Character __instance)
+        {
+            TrollModPlugin plugin = TrollModPlugin.Instance;
+            return plugin == null || plugin.SurvivalAssist == null || !plugin.SurvivalAssist.Immortality || __instance == null || !__instance.IsLocal;
+        }
+    }
+
+    [HarmonyPatch(typeof(GamefeelHandler), "GetRotation")]
+    internal static class AccessibleCameraShakePatch
+    {
+        private static void Postfix(ref Vector3 __result)
+        {
+            TrollModPlugin plugin=TrollModPlugin.Instance;if(plugin==null||plugin.Settings==null)return;__result*=Mathf.Clamp01(plugin.Settings.CameraShakeScale.Value);
+        }
+    }
+
+    [HarmonyPatch(typeof(PointPinger), "get_canPing")]
+    internal static class SpectatorGhostPingPatch
+    {
+        private static readonly FieldInfo LastPinged = AccessTools.Field(typeof(PointPinger), "_timeLastPinged");
+        private static readonly FieldInfo Cooldown = AccessTools.Field(typeof(PointPinger), "coolDown");
+        private static void Postfix(PointPinger __instance, ref bool __result)
+        {
+            TrollModPlugin plugin = TrollModPlugin.Instance;
+            Character local = Character.localCharacter;
+            if (__result || plugin == null || plugin.Settings == null || !plugin.Settings.BetterSpectatingEnabled.Value || !plugin.Settings.SpectateGhostPings.Value || local == null || local.data == null || !local.data.fullyPassedOut || __instance == null) return;
+            float last = LastPinged == null ? 0f : (float)LastPinged.GetValue(__instance);
+            float cooldown = Cooldown == null ? .5f : (float)Cooldown.GetValue(__instance);
+            if (Time.time - last >= cooldown) __result = true;
+        }
+    }
+
+    [HarmonyPatch(typeof(CharacterItems), "DropAllItems")]
+    internal static class NoWaitInventoryPreservationPatch
+    {
+        private static bool Prefix(CharacterItems __instance)
+        {
+            TrollModPlugin plugin = TrollModPlugin.Instance;
+            return plugin == null || plugin.NoWait == null || !plugin.NoWait.ShouldSuppressDrop(__instance);
+        }
+    }
+
+    [HarmonyPatch(typeof(Character), "CanDoInput")]
+    internal static class GameplayInputPatch
+    {
+        private static void Postfix(Character __instance, ref bool __result)
+        {
+            TrollModPlugin plugin = TrollModPlugin.Instance;
+            if (plugin != null && plugin.Ui != null && plugin.Ui.IsTyping && __instance != null && __instance.IsLocal) __result = false;
+        }
+    }
+
+    [HarmonyPatch(typeof(PointPinger), "DoPing")]
+    internal static class PingPlacementPatch
+    {
+        private static bool Prefix(PointPinger __instance)
+        {
+            TrollModPlugin plugin = TrollModPlugin.Instance;
+            if (plugin == null || plugin.PingPlacement == null || !plugin.PingPlacement.Active) return true;
+            return !plugin.PingPlacement.TryCapture(__instance);
+        }
+    }
+
+    [HarmonyPatch(typeof(CursorHandler), "Update")]
+    internal static class CursorHandlerPatch
+    {
+        private static bool Prefix()
+        {
+            TrollModPlugin plugin = TrollModPlugin.Instance;
+            if (plugin == null || plugin.Ui == null || !plugin.Ui.IsOpen) return true;
+            Cursor.lockState = CursorLockMode.None; Cursor.visible = true; return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(GUIManager), "UpdateWindowStatus")]
+    internal static class WindowStatusPatch
+    {
+        private static readonly FieldInfo ShowingCursor = AccessTools.Field(typeof(GUIManager), "<windowShowingCursor>k__BackingField");
+        private static readonly FieldInfo BlockingInput = AccessTools.Field(typeof(GUIManager), "<windowBlockingInput>k__BackingField");
+        private static readonly FieldInfo LastBlockedInput = AccessTools.Field(typeof(GUIManager), "lastBlockedInput");
+
+        private static void Postfix(GUIManager __instance)
+        {
+            TrollModPlugin plugin = TrollModPlugin.Instance;
+            if (plugin == null || plugin.Ui == null || !plugin.Ui.IsOpen || __instance == null) return;
+            if (ShowingCursor != null) ShowingCursor.SetValue(__instance, true);
+            if (BlockingInput != null) BlockingInput.SetValue(__instance, plugin.Ui.IsTyping);
+            if (LastBlockedInput != null && plugin.Ui.IsTyping) LastBlockedInput.SetValue(__instance, Time.frameCount);
+        }
+    }
+
+    [HarmonyPatch(typeof(CharacterInput), "Sample")]
+    internal static class MindControlInputPatch
+    {
+        private static void Postfix(CharacterInput __instance, bool __0)
+        {
+            TrollModPlugin plugin = TrollModPlugin.Instance;
+            if (plugin != null && plugin.MindControl != null) plugin.MindControl.OnInputSampled(__instance, __0);
+        }
+    }
+
+    [HarmonyPatch(typeof(MainCameraMovement), "LateUpdate")]
+    internal static class MindControlCameraPatch
+    {
+        private static void Postfix(MainCameraMovement __instance)
+        {
+            TrollModPlugin plugin = TrollModPlugin.Instance;
+            if (plugin != null && plugin.MindControl != null) plugin.MindControl.OverrideCamera(__instance);
+        }
+    }
+
+    [HarmonyPatch(typeof(MirageLuggage), "Update")]
+    internal static class MesaMirageLuggagePatch
+    {
+        private static void Postfix(MirageLuggage __instance)
+        {
+            TrollModPlugin plugin = TrollModPlugin.Instance;
+            if (plugin != null && plugin.LuggageNavigation != null) plugin.LuggageNavigation.SuppressNativeMirage(__instance);
+        }
+    }
+
+    [HarmonyPatch(typeof(global::Mirage), "Update")]
+    internal static class MesaMiragePatch
+    {
+        private static void Postfix(global::Mirage __instance)
+        {
+            TrollModPlugin plugin = TrollModPlugin.Instance;
+            if (plugin != null && plugin.LuggageNavigation != null) plugin.LuggageNavigation.SuppressNativeMirage(__instance);
+        }
+    }
+}

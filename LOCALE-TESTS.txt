@@ -1,0 +1,2 @@
+PASS: 1325 dictionary entries, Vietnamese UI captions, English identity/round trip, dynamic values, word boundaries, rich-text tags, multiline text, unknown fallback, stable identifiers.
+Tests exercise translation logic, not Unity rendering or a live PEAK session.

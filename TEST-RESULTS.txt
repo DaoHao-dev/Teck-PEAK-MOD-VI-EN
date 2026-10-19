@@ -1,0 +1,3 @@
+PASS: F7 menu DLL/audio/font/license mapping, menu deselection and re-upgrade, dependency resolution, PEAK loader precedence, pinned package hashes, patcher/core mapping, install byte verification, optional mod changes, configuration preservation, backup restoration, external edit protection, tampered manifests, foreign loader rejection, traversal rejection, write-failure rollback, corrupt-cache rejection.
+Fake PEAK.exe fixtures were never executed.
+PASS: every selectable root includes the localization package; the language package introduces no game configuration files beyond the existing loader payload. See LOCALE-TESTS.txt for dictionary tests.

@@ -1,0 +1,895 @@
+English	Vietnamese
+    Fake enemies: 	    Quái giả: 
+   •   Deaths 	   •   Số lần chết 
+   •   Difficulty 	   •   Độ khó 
+   •   Director threats 	   •   Kịch bản threats 
+   •   Down 	   •   Bất tỉnh 
+   •   Next event 	   •   Sự kiện tiếp theo 
+   •   Preview never executes or networks the effect.	   •   Xem trước không thực thi hoặc gửi hiệu ứng qua mạng.
+   •   Rescues 	   •   Số lần cứu 
+   •   Score 	   •   Điểm 
+  climb 	  leo núi 
+  med 	  thuốc 
+  mobility 	  di chuyển 
+ (You)	 (Bạn)
+ AudioClip assets currently discovered. Enemy cues are available only when their vanilla clips are loaded.	 đoạn âm thanh đã tìm thấy. Âm thanh quái chỉ có khi game đã nạp chúng.
+ ESP 	 Nhìn xuyên vật cản 
+ Self-only; equip a Jetpack backpack.	 Chỉ dùng cho bạn; cần đeo ba lô phản lực.
+ Uses PEAK's native Book of Bones state.	 Sử dụng trạng thái Sách Xương có sẵn của PEAK.
+ force  ↑	 lực  ↑
+ force  ↗	 lực  ↗
+ highlighted target(s) currently tracked. ESP and its tracers are visual only and automatically hide while this menu is open.	 mục tiêu đang được theo dõi. Viền và đường chỉ chỉ là hình ảnh, tự ẩn khi mở menu.
+ is not currently loaded.	 hiện chưa được nạp.
+ is not loaded in the runtime item catalog.	 chưa được nạp trong danh mục vật phẩm của game.
+ item(s).	 vật phẩm.
+ items  	 vật phẩm  
+ items  | food 	 vật phẩm  | đồ ăn 
+ matching item(s)	 vật phẩm phù hợp
+ releases either side.	 để một trong hai bên ngắt điều khiển.
+ tracked dynamite.	 quả thuốc nổ do mod quản lý.
+ tracked storm items.	 vật phẩm mưa do mod quản lý.
+!  Authority & Safety	!  Quyền điều khiển và giới hạn
+#40FFC7	#40FFC7
+#FFC233	#FFC233
+. Close F7, aim, and ping.	. Đóng F7, ngắm rồi đánh dấu.
+1. Mandrake Rain	1. Mưa Mandrake
+2. Instant Knockout	2. Bất tỉnh ngay
+3. Sky High	3. Phóng lên cao
+4. Horizontal Yeet	4. Đẩy ngang
+5. One Live One	5. Một quả thật
+; no gameplay action was sent.	; không gửi thao tác vào trò chơi.
+A compatible host executes the verified room spawn.	Chủ phòng tương thích sẽ tạo đối tượng đã được xác minh.
+A compatible host loads PEAK's verified zombie resource, so this works outside the Roots.	Chủ phòng tương thích nạp tài nguyên thây ma của PEAK; dùng được ngoài khu Roots.
+A harmless fake Looker becomes available when a visual source is loaded.	Looker giả có sẵn khi game đã nạp hình ảnh nguồn.
+ACCEPT	CHẤP NHẬN
+ACCEPT RULES	CHẤP NHẬN RULES
+ACCESSIBILITY	HỖ TRỢ THAO TÁC
+ACTIVE	ĐANG CHẠY
+ACTIVE CHECKPOINT	ĐIỂM NGHỈ HIỆN TẠI
+ALIVE	CÒN SỐNG
+ALL	TẤT CẢ
+ALL BADGES: ENABLED	ĐÃ MỞ MỌI HUY HIỆU
+ALL COSMETICS: ENABLED	ĐÃ MỞ MỌI ĐỒ TRANG TRÍ
+AMPLIFY SELECTED	TĂNG CHO NGƯỜI ĐÃ CHỌN
+ANTI-MIRAGES: OFF	ẨN ẢO ẢNH: TẮT
+ANTI-MIRAGES: ON	ẨN ẢO ẢNH: BẬT
+APPLY	ÁP DỤNG
+APPLY CODE	ÁP DỤNG MÃ
+ARM SUMMIT SABOTEUR	CHUẨN BỊ PHÁ RỐI TRÊN ĐỈNH
+Accessibility	Hỗ trợ thao tác
+Active mod-spawned enemies: 	Quái do mod tạo đang tồn tại: 
+Active tracked dynamite: 	Thuốc nổ đang được quản lý: 
+Active tracked storm items: 	Vật phẩm mưa đang được quản lý: 
+Active: 	Đang hoạt động: 
+ActiveProfileName	Tên hồ sơ đang dùng
+Adaptive difficulty	Độ khó tự điều chỉnh
+Add spectator shortcuts, overlay, free camera, ghost pings, and revive-near-target.	Thêm phím quan sát, bảng trạng thái, camera tự do, đánh dấu khi chết và hồi sinh gần mục tiêu.
+Aim and use the normal ping input.	Ngắm và dùng phím đánh dấu thông thường.
+Alive 	Còn sống 
+All local mirages cleared.	Đã xóa ảo ảnh trên máy bạn.
+All menu, backpack, and spectator shortcuts can be changed on Mod Config.	Đổi phím menu, ba lô và quan sát trong Cấu hình mod.
+All tracked troll spawns cleared.	Đã dọn các đối tượng do mod tạo.
+Allow normal point pings while fully passed out.	Cho phép đánh dấu điểm khi đã bất tỉnh hoàn toàn.
+Altitude 	Độ cao 
+Always mute locally	Luôn tắt tiếng trên máy mình
+Amplify Hunger Rates	Tăng tốc độ đói
+Analyze synchronized party supplies	Kiểm tra đồ tiếp tế nhóm đã đồng bộ
+Anti-Mirages	Ẩn ảo ảnh
+Anti-Mirages 	Ẩn ảo ảnh 
+Anti-Softlock	Chống kẹt
+Appearance	Ngoại hình
+Applied horizontal yeet to lobby players. Last result: 	Đã đẩy ngang người chơi trong phòng. Kết quả cuối: 
+Applied to eligible lobby players. Last result: 	Đã áp dụng cho người chơi phù hợp. Kết quả cuối: 
+Applies only while you hold a Rescue Claw. Distant wall hits zip your scout toward the anchor at a capped 45 m/s and stop near the surface instead of timing out mid-rope.	Chỉ khi cầm móc cứu hộ. Móc trúng vách xa sẽ kéo bạn tới điểm neo, tối đa 45 m/s, rồi dừng gần vách.
+Audio	Âm thanh
+Automatic rescue	Cứu hộ tự động
+BACKPACK PROTECTION: OFF	BẢO VỆ BA LÔ: TẮT
+BACKPACK PROTECTION: ON	BẢO VỆ BA LÔ: BẬT
+BIGGER BACKPACK: OFF	BA LÔ LỚN HƠN: TẮT
+BIGGER BACKPACK: ON	BA LÔ LỚN HƠN: BẬT
+BackpackProtection	Bảo vệ ba lô
+Better Spectating	Quan sát nâng cao
+BetterSpectating	Quan sát nâng cao
+BiggerBackpack	Ba lô lớn hơn
+Blue	Lam
+Bounded native movement force for host-only control of unmodded scouts (1-8).	Lực di chuyển có giới hạn cho chủ phòng điều khiển người chưa cài mod (1–8).
+Bounded randomized events with compatible-client validation.	Sự kiện ngẫu nhiên có giới hạn và kiểm tra tương thích.
+Broadcast for all lobby players.	Đã gửi tới cả phòng.
+Build, run, score, and share complete custom expedition scenarios.	Tạo, chạy, tính điểm và chia sẻ kịch bản chuyến đi.
+CANCEL	HỦY
+CANCEL + CLEAR DYNAMITE	HỦY VÀ DỌN THUỐC NỔ
+CANCEL + CLEAR MY DYNAMITE	HỦY VÀ DỌN THUỐC NỔ CỦA MÌNH
+CANCEL + CLEAR MY ITEMS	HỦY VÀ DỌN VẬT PHẨM CỦA MÌNH
+CANCEL COMBO	HỦY CHUỖI
+CANCEL PLACEMENT	HỦY ĐẶT
+CANCEL SUMMIT SABOTEUR	HỦY PHÁ RỐI TRÊN ĐỈNH
+CHAOS	HỖN LOẠN
+CHAOS IS ACTIVE	HỖN LOẠN ĐANG CHẠY
+CHECKPOINT	ĐIỂM NGHỈ
+CLEAR	XÓA
+CLEAR FAKE ENEMIES LOCAL	XÓA QUÁI GIẢ TRÊN MÁY
+CLEAR FOR AUDIENCE	XÓA CHO NGƯỜI XEM
+CLEAR LOCAL MOD EFFECTS	XÓA HIỆU ỨNG MOD TRÊN MÁY
+CLEAR MIRAGES	XÓA ẢO ẢNH
+CLEAR MOD STATUSES	XÓA TRẠNG THÁI CỦA MOD
+CLEAR MY REQUESTED SPAWNS	DỌN ĐỐI TƯỢNG MÌNH YÊU CẦU
+CLEAR TROLL SPAWNS	DỌN ĐỐI TƯỢNG MOD TẠO
+CONFIRM ELIMINATE	XÁC NHẬN HẠ GỤC
+CONTROL SELECTED SCOUT	ĐIỀU KHIỂN NGƯỜI ĐÃ CHỌN
+COPY	SAO CHÉP
+COPY CODE	SAO CHÉP MÃ
+COPY LOBBY CODE	SAO CHÉP MÃ PHÒNG
+CYCLE	ĐỔI MỨC
+CYCLE SELECTED ITEM	ĐỔI VẬT PHẨM ĐÃ CHỌN
+Camera distance  	Khoảng cách camera  
+Camera shake  	Rung camera  
+Camera shake scaling is applied at PEAK's final gamefeel rotation output, so it also covers native events.	Mức rung camera áp dụng tại đầu ra chuyển động cuối của PEAK, bao gồm sự kiện gốc.
+CameraShakeScale	Mức rung camera
+Campfire death trap 	Bẫy chết lửa trại 
+Campfire reset trap 	Bẫy đặt lại lửa trại 
+CampfireDeathRadius	Bán kính bẫy chết lửa trại
+CampfireDeathTrap	Bẫy chết lửa trại
+CampfireTeleportsEveryoneToStart	Lửa trại đưa mọi người về đầu
+Capybara	Chuột lang nước
+Changes are saved to the owning mod's config. Live application depends on that mod; restart PEAK when in doubt.	Thay đổi được lưu vào cấu hình mod tương ứng. Khả năng áp dụng ngay tùy mod; khởi động lại PEAK nếu cần.
+Chaos	Hỗn loạn
+Chaos Mode	Chế độ hỗn loạn
+Chaos and combo runner stopped.	Đã dừng hỗn loạn và chuỗi hiệu ứng.
+Chaos is stopped	Hỗn loạn đang dừng
+Chaos pulses	Hỗn loạn pulses
+Chaos started.	Đã bắt đầu hỗn loạn.
+Chaos stopped.	Đã dừng hỗn loạn.
+Choose one scout; Summit Saboteur does not use ALL.	Chọn một người; Phá rối trên đỉnh không dùng chế độ TẤT CẢ.
+Choose one scout; combo sequences do not use ALL.	Chọn một người; chuỗi hiệu ứng không dùng chế độ TẤT CẢ.
+Choose one trap for the next campfire ignition.	Chọn một bẫy cho lần đốt lửa trại tiếp theo.
+Cleanup and restoration completed on compatible clients.	Đã dọn và khôi phục trên các máy tương thích.
+Cleared locally tracked troll effects and restored reversible state.	Đã xóa hiệu ứng được theo dõi và khôi phục trạng thái có thể hoàn tác.
+Cleared mirages for all compatible viewers.	Đã xóa ảo ảnh cho mọi người xem tương thích.
+Cleared only objects in the mod tracking registry.	Chỉ xóa đối tượng nằm trong danh sách quản lý của mod.
+Cleared tracked statuses for eligible players. Last result: 	Đã xóa trạng thái do mod quản lý. Kết quả cuối: 
+Click Eliminate again to confirm.	Bấm Hạ gục lần nữa để xác nhận.
+ClimbForecast	Ước tính leo núi
+ClimbForecastMaximumHeight	Độ cao kiểm tra leo núi
+ClimbForecastSafetyReserve	Thể lực dự phòng khi leo
+Clips are referenced from PEAK at runtime and are never redistributed.	Âm thanh được lấy từ game đang chạy, không phân phối lại tài nguyên.
+Clothes only	Chỉ quần áo
+Codes contain only bounded Director rules; they cannot edit other mods or execute arbitrary actions.	Codes contain only bounded Kịch bản rules; they cannot edit other mods or execute arbitrary actions.
+Codes include a bounded allowlist of PEAK Troll Mod QoL, accessibility, ESP, practice, and lobby settings.	Mã chỉ chứa các thiết lập cho phép: tiện ích, hỗ trợ, nhìn xuyên, luyện tập và phòng chơi của PEAK Troll Mod.
+Color only	Chỉ màu sắc
+Combo cancelled.	Đã hủy chuỗi hiệu ứng.
+Compatibility	Tương thích
+Compatible clients: 	Máy tương thích: 
+Compatible recipients: 	Người nhận tương thích: 
+Component switches are session-only. Harmony patches may remain until restart.	Bật tắt thành phần chỉ áp dụng trong phiên này. Bản vá Harmony có thể tồn tại tới khi khởi động lại.
+Confirm destructive actions	Xác nhận thao tác gây tác động lớn
+ConfirmDestructiveActions	Xác nhận thao tác tác động lớn
+Connected	Đã kết nối
+Continuously refill the local scout's available stamina while enabled.	Liên tục nạp thể lực khả dụng của bạn khi bật.
+Controller's third-person follow-camera distance in metres (3-10).	Khoảng cách camera góc nhìn thứ ba của người điều khiển (3–10 mét).
+Copies renderers, meshes, materials and animator only.	Chỉ sao chép hình ảnh, lưới, vật liệu và chuyển động.
+Cosmetic confusion without identity impersonation.	Đổi hình ảnh ngoại hình, không đổi danh tính tài khoản.
+Count 	Số lượng 
+Count  	Số lượng  
+Current: 	Hiện tại: 
+Custom	Tùy chỉnh
+Cycle to the next living scout while spectating.	Chuyển tới người còn sống tiếp theo khi quan sát.
+Cycle to the previous living scout while spectating.	Chuyển tới người còn sống trước đó khi quan sát.
+DEAD	ĐÃ CHẾT
+DEATH TRAP: ENABLED	BẪY CHẾT: ĐÃ BẬT
+DECLINE	TỪ CHỐI
+DESTINATION: 	ĐIỂM ĐẾN: 
+DISABLE COMPONENT THIS SESSION	TẮT THÀNH PHẦN TRONG PHIÊN NÀY
+DOCTOR: MONITORING	KHÔI PHỤC KẸT: ĐANG THEO DÕI
+DOCTOR: OFF	KHÔI PHỤC KẸT: TẮT
+DOWN	BẤT TỈNH
+Death radius  	Bán kính tác động  
+Debug logging	Ghi nhật ký gỡ lỗi
+DebugLogging	Nhật ký gỡ lỗi
+Delay  	Thời gian chờ  
+Despawn 	Tự xóa sau 
+Detailed condition changes	Chi tiết thay đổi trạng thái
+Detect exact duplicate BepInEx KeyboardShortcut and KeyCode bindings across enabled plugins.	Phát hiện phím BepInEx trùng chính xác giữa các plugin đang bật.
+Detect likely local softlocks and offer explicit safe recovery actions.	Phát hiện khả năng bị kẹt và đưa ra thao tác khôi phục cần xác nhận.
+Detection delay  	Độ trễ phát hiện  
+DetectionDelay	Độ trễ phát hiện
+Diagnostics	Chẩn đoán
+Director: 	Kịch bản: 
+Discovered from PEAK's currently loaded runtime item catalog. Nothing is bundled or guessed.	Lấy từ danh mục vật phẩm PEAK hiện đang nạp, không dùng danh sách phỏng đoán.
+Display name of the last applied or saved PEAK Troll Mod profile.	Tên hồ sơ PEAK Troll Mod được áp dụng hoặc lưu gần nhất.
+Draw colored lines from the bottom-center of the screen to highlighted ESP targets.	Vẽ đường màu từ giữa đáy màn hình tới mục tiêu nhìn xuyên.
+Draw local through-wall outlines around loaded Mushroom Zombies.	Vẽ viền xuyên tường quanh thây ma nấm đã được nạp.
+Draw local through-wall outlines around loaded Scoutmasters.	Vẽ viền xuyên tường quanh Scoutmaster đã được nạp.
+Draw local through-wall outlines around other scouts.	Vẽ viền xuyên tường quanh người khác trên máy bạn.
+Draw local through-wall outlines around unopened genuine luggage.	Vẽ viền xuyên tường quanh hành lý thật chưa mở.
+Duration  	Thời lượng  
+EDIT	CHỈNH
+ELIMINATE	HẠ GỤC
+ENABLE ALL BADGES	MỞ MỌI HUY HIỆU
+ENABLE ALL COSMETICS	MỞ MỌI ĐỒ TRANG TRÍ
+ENABLE CAMPFIRE DEATH TRAP	BẬT BẪY CHẾT LỬA TRẠI
+ENABLE CAMPFIRE RESET TRAP	BẬT BẪY ĐẶT LẠI LỬA TRẠI
+ENABLE COMPONENT THIS SESSION	BẬT THÀNH PHẦN TRONG PHIÊN NÀY
+ESP	Nhìn xuyên vật cản
+ESP Colors	Màu nhìn xuyên
+ESP outline and tracer thickness (1-8 pixels).	Độ dày viền và đường chỉ (1–8 điểm ảnh).
+ESP targets: 	Mục tiêu nhìn xuyên: 
+EXPORT	XUẤT
+Editing: 	Đang chỉnh: 
+Effect Preview is disabled in Mod Config.	Xem trước hiệu ứng đang tắt trong Cấu hình mod.
+EffectPreview	Xem trước hiệu ứng
+Effectively unlimited local claw reach	Tầm móc gần như vô hạn trên máy bạn
+Enable Item Spawner under Mod Config → Built-in Quality of Life.	Bật Tạo vật phẩm tại Cấu hình mod → Tiện ích tích hợp.
+Enable climb feasibility overlay	Hiện ước tính khả năng leo
+Enable detailed diagnostics.	Bật nhật ký chẩn đoán chi tiết.
+Enabled	Bật
+End reference unavailable.	Chưa xác định điểm kết thúc.
+Enemy cap  	Giới hạn quái  
+Environmental hazards separated from direct statuses.	Hiệu ứng môi trường và trạng thái nhân vật riêng biệt.
+Event interval  	Khoảng cách sự kiện  
+Events 	Sự kiện 
+Everyone	Mọi người
+Exact multiplier for compatible owners. The host can use bounded native Hunger pulses on unmodded targets.	Áp dụng hệ số chính xác cho máy tương thích. Chủ phòng có thể tăng đói theo nhịp có giới hạn cho mục tiêu chưa cài mod.
+Exclude from random troll targeting	Bỏ khỏi danh sách mục tiêu ngẫu nhiên
+Exclude self	Loại trừ bản thân
+Exclude self from random targets	Không chọn bản thân ngẫu nhiên
+Exclude the local player from random targets.	Không chọn bản thân làm mục tiêu ngẫu nhiên.
+ExcludeSelf	Loại trừ bản thân
+Executed with local host authority.	Thực hiện bằng quyền chủ phòng trên máy này.
+Expand the local Backpack to eight slots and Fanny Pack to four slots. Extra slots require this mod to display on other clients.	Tăng ba lô lên 8 ô và túi hông lên 4 ô. Máy khác cần mod để thấy ô bổ sung.
+Expedition Director	Điều phối chuyến đi
+Exported a validated PTMD1 scenario code.	Đã xuất mã kịch bản PTMD1 hợp lệ.
+Expose all PEAK badges and sync the local sash while enabled without granting platform achievements.	Hiện mọi huy hiệu và đồng bộ khăn đeo khi bật, không cấp thành tựu nền tảng.
+Expose all PEAK cosmetics while the mod is enabled without granting platform achievements.	Hiện mọi đồ trang trí khi bật mod, không cấp thành tựu nền tảng.
+ExtraBackpacks	Thêm ba lô
+ExtraCampfireFood	Thêm đồ ăn lửa trại
+FAR HORIZON	PHÓNG RA XA
+FOLLOW AT DISTANCE	ĐI THEO TỪ XA
+Fake Enemy	Quái giả
+Fake Enemy debug info	Thông tin gỡ lỗi quái giả
+FakeEnemyDebugInfo	Gỡ lỗi quái giả
+Far Horizon distance  	Khoảng cách phóng xa  
+FavoriteEffects	Hiệu ứng yêu thích
+FavoriteItems	Vật phẩm yêu thích
+Favorited 	Đã thêm yêu thích 
+Favorites & Recents	Yêu thích và gần đây
+FavoritesAndRecentActions	Yêu thích và thao tác gần đây
+Flight	Bay
+Flight speed                                      	Tốc độ bay                                      
+Friend/item rescues, empty shots, uses, and other players' claws are unchanged. Physics and timeout values restore on arrival, drop, disable, or scene exit.	Không đổi cứu người, vật phẩm hay móc của người khác. Thông số gốc được trả lại khi tới nơi, thả móc, tắt hoặc chuyển màn.
+Full control with PEAK Troll Mod; hosts get movement, jump, and crouch puppet control for unmodded scouts. Their own input stays active.	Điều khiển đầy đủ khi mục tiêu cài mod; chủ phòng có thể điều khiển di chuyển, nhảy và ngồi của mục tiêu chưa cài. Phím của họ vẫn hoạt động.
+GENUINE LOOKER SPAWN	TẠO LOOKER THẬT
+GIVE ITEM	TRAO VẬT PHẨM
+GIVE TO ME	NHẬN VỀ MÌNH
+GIVE TO TARGET	TRAO CHO MỤC TIÊU
+Ghost pings	Đánh dấu khi chết
+Give Item	Trao vật phẩm
+Give the locally held Rescue Claw map-wide targeting and zip the local scout toward distant wall anchors. Yields to a standalone infinite-range rescue-hook mod.	Móc cứu hộ bạn cầm có tầm ngắm toàn bản đồ và kéo tới vách xa. Ưu tiên mod móc vô hạn riêng nếu có.
+Green	Lục
+HARDCORE	KHẮC NGHIỆT
+HIDE	ẨN
+HORIZONTAL YEET	ĐẨY NGANG
+HOST: CLEAR ALL	CHỦ PHÒNG: DỌN TẤT CẢ
+Hard cap for tracked spawns and mirages.	Giới hạn cứng cho đối tượng và ảo ảnh do mod quản lý.
+Harmless visual decoys, fake enemies, and ping placement.	Ảo ảnh, quái giả và đặt đối tượng bằng đánh dấu.
+Height  	Độ cao  
+Held-item Stamina Preview	Xem tác động thể lực của đồ cầm
+High-contrast status colors	Màu trạng thái tương phản cao
+HighContrastColors	Màu tương phản cao
+Hold reach toward a steep surface. The estimate uses PEAK's live climb speed, stamina, surface angle/modifiers, and ascent multiplier.	Vươn tay về phía vách dốc. Ước tính dựa trên tốc độ leo, thể lực, góc bề mặt và hệ số đi lên của game.
+Hold to open the equipped backpack wheel.	Giữ phím để mở vòng chọn ba lô đang đeo.
+Home	Trang chủ
+Horizontal Yeet strength  	Lực đẩy ngang  
+Host migration: 	Chuyển chủ phòng: 
+Host offer: 	Chủ phòng offer: 
+Host puppet force  	Lực điều khiển của chủ phòng  
+Host-authorized genuine enemy ambushes with strict tracking.	Tạo quái thật với quyền chủ phòng và theo dõi đối tượng.
+Host-native status; target mod not required.	Trạng thái do chủ phòng áp dụng; mục tiêu không cần cài mod.
+Host: 	Chủ phòng: 
+HostPuppetForce	Lực điều khiển của chủ phòng
+HotkeyConflictDoctor	Kiểm tra trùng phím
+IMMORTALITY: OFF	BẤT TỬ: TẮT
+IMMORTALITY: ON	BẤT TỬ: BẬT
+IMPORT	NHẬP
+INFINITE JETPACK FUEL: OFF	NHIÊN LIỆU BAY VÔ HẠN: TẮT
+INFINITE JETPACK FUEL: ON	NHIÊN LIỆU BAY VÔ HẠN: BẬT
+INFINITE STAMINA: OFF	THỂ LỰC VÔ HẠN: TẮT
+INFINITE STAMINA: ON	THỂ LỰC VÔ HẠN: BẬT
+IT'S FOLLOWING YOU	NÓ ĐANG ĐI THEO BẠN
+ITEM SPAWNER DISABLED	CHƯA BẬT TẠO VẬT PHẨM
+Immediately release or break free from an active Mind Control session.	Ngắt ngay phiên điều khiển đang diễn ra.
+Immortality	Bất tử
+Immortality 	Bất tử 
+Immortality blocks death/pass-out and clears every negative stamina-bar condition, including carried weight. Infinite Stamina refills usable stamina. Both are self-only.	Bất tử ngăn chết, bất tỉnh và xóa trạng thái xấu trên thanh thể lực, kể cả sức nặng. Thể lực vô hạn nạp lại thể lực dùng được. Chỉ áp dụng cho bạn.
+Import code	Nhập mã
+Include already-synchronized equipped-backpack contents in party supply analysis.	Tính cả đồ trong ba lô đang đeo đã đồng bộ khi kiểm tra tiếp tế.
+Include equipped backpacks	Tính cả ba lô đang đeo
+Include the local scout in the team panel.	Hiện cả bản thân trong bảng nhóm.
+Infinite Jetpack Fuel 	Nhiên liệu bay vô hạn 
+Infinite Stamina 	Thể lực vô hạn 
+InfiniteJetpackFuel	Nhiên liệu phản lực vô hạn
+InfiniteRescueClawReach	Tầm móc cứu hộ vô hạn
+InfiniteStamina	Thể lực vô hạn
+Intensity  	Cường độ  
+Interface, accessibility, safety limits, and diagnostics.	Hiển thị, hỗ trợ, giới hạn và chẩn đoán.
+Interval 	Khoảng thời gian 
+Interval  	Khoảng thời gian  
+Item Spawner	Tạo vật phẩm
+Item Storm	Mưa vật phẩm
+ItemSpawner	Tạo vật phẩm
+KEEP RECONNECT GEAR: OFF	GIỮ ĐỒ KHI KẾT NỐI LẠI: TẮT
+KEEP RECONNECT GEAR: ON	GIỮ ĐỒ KHI KẾT NỐI LẠI: BẬT
+KNOCK OUT	LÀM BẤT TỈNH
+Keep the locally equipped Jetpack at its native maximum fuel and restore its original fuel when disabled.	Giữ nhiên liệu ba lô phản lực ở mức tối đa và trả lại mức gốc khi tắt.
+LABELS: OFF	TÊN: TẮT
+LABELS: ON	TÊN: BẬT
+LARGE LOBBY	PHÒNG ĐÔNG NGƯỜI
+LAST SAFE GROUND	VỊ TRÍ AN TOÀN GẦN NHẤT
+LAUNCH	PHÓNG LÊN
+LOWEST	THẤP NHẤT
+LUGGAGE	HÀNH LÝ
+Labels	Tên và thông tin
+Large Lobby	Phòng đông người
+Last Steam lobby: 	Phòng Steam gần nhất: 
+Last valid Steam lobby ID observed by Quick Reconnect.	Steam ID của phòng hợp lệ gần nhất được tính năng kết nối nhanh ghi nhận.
+Last validated PTMD1 scenario code exported or imported through Expedition Director.	Mã kịch bản PTMD1 hợp lệ được nhập hoặc xuất gần nhất.
+LastLobbyId	ID phòng gần nhất
+LastScenarioCode	Mã kịch bản gần nhất
+Latest: 	Gần nhất: 
+Launch	Phóng lên
+Launch distance  	Khoảng cách phóng  
+Launch strength  	Lực phóng  
+Light fuses before dropping	Châm ngòi trước khi thả
+Loaded mod list refreshed.	Đã cập nhật danh sách mod.
+Loaded players: 	Người chơi đã nạp: 
+Lobby Readiness	Sẵn sàng trong phòng
+Lobby code copied to the clipboard.	Đã sao chép mã phòng.
+Lobby code: 	Mã phòng: 
+Lobby players: 	Người trong phòng: 
+Local incoming voice control works on unmodded players.	Điều chỉnh giọng nói nghe được trên máy bạn, kể cả người chưa cài mod.
+Local player unavailable.	Chưa tìm thấy nhân vật của bạn.
+Local, safe-ground recovery. No host permission or target mod is needed.	Khôi phục tại vị trí an toàn trên máy bạn; không cần quyền chủ phòng hay mod ở mục tiêu.
+Local-only 3D outlines remain visible through terrain and walls.	Đường viền 3D chỉ hiển thị trên máy bạn, nhìn được xuyên địa hình và tường.
+Local: 	Máy bạn: 
+Locally hide native and PEAK Troll Mod-created mirage visuals wherever they appear. The legacy setting name is retained so existing configs keep working.	Ẩn hình ảnh ảo của game và mod trên máy bạn. Giữ tên thiết lập cũ để cấu hình hiện có vẫn dùng được.
+Locally hides every detected native and mod-created mirage visual.	Ẩn mọi hình ảnh ảo phát hiện được trên máy bạn.
+Log fake-enemy lifecycle.	Ghi nhật ký vòng đời quái giả.
+Log mirage lifecycle.	Ghi nhật ký vòng đời ảo ảnh.
+Log validated mod messages.	Ghi nhật ký thông điệp mod đã xác thực.
+Luggage	Hành lý
+Luggage ESP outline color as #RRGGBB.	Màu viền hành lý, dạng #RRGGBB.
+MAKE SELECTED SKELETON	ĐỔI MỤC TIÊU THÀNH BỘ XƯƠNG
+MANDRAKE RAIN	MƯA MANDRAKE
+MARK MYSELF READY	ĐÁNH DẤU MÌNH SẴN SÀNG
+MENU INPUT: 	THAO TÁC MENU: 
+MUTE SELECTED INCOMING VOICE	TẮT GIỌNG NGƯỜI ĐÃ CHỌN
+MYSELF TO TARGET	MÌNH TỚI MỤC TIÊU
+Marked not ready.	Đã bỏ sẵn sàng.
+Marked ready for compatible clients.	Đã báo sẵn sàng cho máy tương thích.
+MaxPlayers	Số người tối đa
+Maximum ESP rendering distance in metres (25-2000).	Khoảng cách vẽ nhìn xuyên tối đa, đơn vị mét (25–2000).
+Maximum Item Storm objects 	Số vật phẩm mưa tối đa 
+Maximum chaos event delay.	Thời gian chờ tối đa giữa sự kiện hỗn loạn.
+Maximum delay 	Thời gian chờ tối đa 
+Maximum distance  	Khoảng cách tối đa  
+Maximum dynamite objects 	Số thuốc nổ tối đa 
+Maximum in-game Mind Control session duration in seconds (10-180).	Thời lượng điều khiển người chơi tối đa, đơn vị giây (10–180).
+Maximum players for newly hosted rooms (4-30). Change before creating the lobby.	Số người tối đa ở phòng mới (4–30). Đổi trước khi tạo phòng.
+Maximum real-luggage search distance in metres (25-2000).	Khoảng cách tìm hành lý thật tối đa, đơn vị mét (25–2000).
+Maximum tracked objects 	Số đối tượng quản lý tối đa 
+Maximum vertical height scanned for a standable ledge (3-20 metres).	Độ cao tối đa để tìm gờ có thể đứng (3–20 mét).
+Maximum world distance for the team panel (10-200 metres).	Khoảng cách tối đa của bảng nhóm (10–200 mét).
+MaximumDelay	Thời gian chờ tối đa
+MaximumDistance	Khoảng cách tối đa
+MaximumDuration	Thời lượng tối đa
+MaximumDynamiteObjects	Số thuốc nổ tối đa
+MaximumItemStormObjects	Số vật phẩm mưa tối đa
+MaximumModSpawnedObjects	Số đối tượng mod tạo tối đa
+Menu draw recovered from: 	Menu draw recovered from: 
+Menu key: 	Phím mở menu: 
+Menu renderer recovered without restarting PEAK.	Đã khôi phục menu, không cần khởi động lại PEAK.
+Menu text scale (0.85-1.30).	Tỉ lệ cỡ chữ menu (0,85–1,30).
+Menu visuals were reloaded after a UI asset error.	Đã tải lại phần hiển thị menu sau lỗi tài nguyên.
+MenuActivation	Cách mở menu
+MenuKey	Phím mở menu
+MesaAntiMirages	Ẩn ảo ảnh
+Mind Control	Điều khiển người chơi
+Minimum chaos event delay.	Thời gian chờ tối thiểu giữa sự kiện hỗn loạn.
+Minimum delay 	Thời gian chờ tối thiểu 
+MinimumDelay	Thời gian chờ tối thiểu
+Mirage	Ảo ảnh
+Mirage debug info	Thông tin gỡ lỗi ảo ảnh
+MirageDebugInfo	Gỡ lỗi ảo ảnh
+Mod Config	Cấu hình mod
+Monitors invalid position, stalled initialization, prolonged incapacitation, and motionless off-ground states. Repairs always require confirmation.	Theo dõi vị trí lỗi, khởi tạo bị kẹt, bất tỉnh kéo dài và lơ lửng bất động. Mọi sửa chữa đều cần xác nhận.
+Movement speed  	Tốc độ di chuyển  
+Multi-place	Đặt liên tiếp
+Mushroom Zombie waves	Đợt thây ma nấm
+Muted all available incoming voices locally.	Đã tắt mọi giọng nói trên máy bạn.
+My Group	Nhóm của tôi
+NEAREST	GẦN NHẤT
+NEAREST SAFE SCOUT	ĐỒNG ĐỘI AN TOÀN GẦN NHẤT
+NEXT DISCOVERED CLIP	ĐOẠN ÂM THANH TIẾP THEO
+NEXT PRESET	MẪU TIẾP THEO
+NEXT SETTING  ›	THIẾT LẬP TIẾP  ›
+NO WAIT: OFF	KHÔNG CHỜ: TẮT
+NO WAIT: ON	KHÔNG CHỜ: BẬT
+NORMAL RATE	TỐC ĐỘ BÌNH THƯỜNG
+NOT READY	CHƯA SẴN SÀNG
+Natural hunger speed  	Tốc độ đói tự nhiên  
+Nearby stamina + conditions	Thể lực và trạng thái người gần bạn
+Nearest unopened genuine luggage; native and mod mirages are ignored.	Tìm hành lý thật chưa mở gần nhất; bỏ qua mọi ảo ảnh.
+Network diagnostics	Chẩn đoán mạng
+NetworkDiagnostics	Chẩn đoán mạng
+Networking: 	Kết nối mạng: 
+Newline-separated favorite effect preview names.	Tên hiệu ứng yêu thích, mỗi tên một dòng.
+Newline-separated favorite runtime item names.	Tên vật phẩm yêu thích, mỗi tên một dòng.
+Newline-separated recently previewed effects.	Tên hiệu ứng vừa xem, mỗi tên một dòng.
+Newline-separated recently used runtime item names.	Tên vật phẩm dùng gần đây, mỗi tên một dòng.
+No Wait 	Không chờ 
+No Wait destination set to 	Điểm đến không chờ: 
+No loaded plugin selected.	Chưa chọn plugin đang nạp.
+No lobby players are available.	Chưa có người chơi trong phòng.
+No lobby players resolved.	Chưa xác định được người trong phòng.
+No matching runtime items	Không có vật phẩm phù hợp đang được nạp
+No players	Chưa có người chơi
+No runtime clips	Chưa có đoạn âm thanh được nạp
+No synchronized scouts are available.	Không synchronized scouts are available.
+No target available.	Không có mục tiêu khả dụng.
+No targets available.	Không có mục tiêu khả dụng.
+NoWait	Không chờ
+NoWaitDestination	Điểm đến khi không chờ
+NoWaitPreserveReconnectState	Giữ trạng thái khi kết nối lại
+Not resolved	Chưa xác định
+OFF	TẮT
+OFF MOUNTAIN	ĐẨY KHỎI NÚI
+OFF — CLICK TO TURN ON	TẮT — BẤM ĐỂ BẬT
+OFFER CURRENT PROFILE	ĐỀ NGHỊ HỒ SƠ HIỆN TẠI
+OFFER RULES TO COMPATIBLE LOBBY	ĐỀ NGHỊ QUY TẮC CHO PHÒNG
+ON — CLICK TO TURN OFF	BẬT — BẤM ĐỂ TẮT
+ONE LIVE ONE	MỘT QUẢ THẬT
+OPEN CONTROLS	MỞ ĐIỀU KHIỂN
+Objective: 	Mục tiêu: 
+Observer-local: selected players do not need the mod.	Chỉ đổi cách bạn nhìn thấy; người được chọn không cần cài mod.
+Offline	Ngoại tuyến
+One Live One drops many convincing duds with exactly one live fuse at a randomized point in the shower.	Thả nhiều quả giả với đúng một quả thật được châm ngòi ở thời điểm ngẫu nhiên.
+One-click presets, consent-based lobby sync, and safe recovery diagnostics.	Mẫu nhanh, đồng bộ có xác nhận và chẩn đoán khôi phục.
+Only exact KeyboardShortcut/KeyCode duplicates are reported. Reassignment happens only when you click and is saved through the owning mod's config.	Chỉ báo phím tắt trùng chính xác. Phím chỉ được đổi khi bạn bấm và được lưu vào cấu hình mod tương ứng.
+Open F7 as a toggle or only while the shortcut is held.	Chọn bấm để bật tắt F7 hoặc chỉ mở khi giữ phím.
+Open or close the PEAK Troll Mod menu.	Mở hoặc đóng menu PEAK Troll Mod.
+Open the equipped backpack wheel with a hotkey.	Mở vòng chọn ba lô đang đeo bằng phím tắt.
+Opened Item Spawner for 	Đã mở mục tạo vật phẩm cho 
+Opens the equipped pack wheel	Mở vòng chọn ba lô đang đeo
+Optional chaos: 	Hỗn loạn tùy chọn: 
+Outline / tracer width  	Độ dày viền / đường chỉ  
+OutlineWidth	Độ dày đường viền
+PASTE	DÁN
+PAUSE	TẠM DỪNG
+PEAK	PEAK
+PEAK Troll Mod ready. QoL, accessibility, multiplayer tools, practice, and optional chaos.	Menu PEAK đã sẵn sàng: tiện ích, hỗ trợ, công cụ chơi nhóm và luyện tập.
+PEAK version: 	Phiên bản PEAK: 
+PLAY 3D SOUND	PHÁT ÂM THANH 3D
+PLAY LOCALLY NEAR TARGET	PHÁT TRÊN MÁY GẦN MỤC TIÊU
+PLAYER CONTROLS	ĐIỀU KHIỂN NGƯỜI CHƠI
+POSITION ROULETTE	HOÁN ĐỔI VỊ TRÍ
+PRACTICE	LUYỆN TẬP
+PREVIEW  	XEM TRƯỚC  
+PREVIEW SAFELY	XEM TRƯỚC AN TOÀN
+PTM.Text.	PTM.Text.
+PTM_UI_PIXEL	PTM_Hiển thị_PIXEL
+PTM_UI_STYLE	PTM_Hiển thị_STYLE
+PartySupplyAdvisor	Kiểm tra tiếp tế nhóm
+PartySupplyIncludeBackpacks	Tính cả đồ trong ba lô
+Pasted profile code for review.	Đã dán mã hồ sơ để kiểm tra.
+Pasted scenario code for review.	Đã dán mã kịch bản để kiểm tra.
+Persistent local quick access	Truy cập nhanh được lưu trên máy
+Persistent mod toggles only. They do not grant Steam/platform achievements; disable either toggle to restore the real earned state.	Chỉ là tùy chọn của mod, không cấp thành tựu Steam. Tắt để trả lại trạng thái mở khóa thật.
+Phantom Pings	Đánh dấu giả
+Ping placement armed for 	Đã chuẩn bị đặt bằng đánh dấu cho 
+Placed for the selected viewer or every compatible viewer.	Đặt cho người xem đã chọn hoặc mọi người xem tương thích.
+Placement inactive.	Chưa bật đặt đối tượng.
+Player	Người chơi
+Player Preferences	Tùy chọn người chơi
+Player unavailable.	Chưa tìm thấy người chơi.
+Points toward the nearest other living scout using the synchronized lobby roster.	Chỉ về phía đồng đội còn sống gần nhất theo danh sách phòng đã đồng bộ.
+Poison/Spore clouds remain unsupported; use direct statuses on Player.	Chưa hỗ trợ mây độc, bào tử; dùng trạng thái trực tiếp trong mục Người chơi.
+Portable code for the last saved PEAK Troll Mod profile.	Mã chia sẻ của hồ sơ PEAK Troll Mod được lưu gần nhất.
+Position Roulette moves every scout to another scout's former position. Nobody stays put.	Hoán đổi mọi người tới vị trí cũ của người khác, không ai đứng nguyên chỗ.
+Position is behind the selected player.	Vị trí ở phía sau người chơi đã chọn.
+Practice	Luyện tập
+Practice enables survival/navigation assists. Large Lobby affects the next room hosted and still yields to standalone PEAK Unlimited.	Luyện tập bật hỗ trợ sinh tồn và chỉ đường. Phòng đông người áp dụng cho phòng tạo tiếp theo, ưu tiên PEAK Unlimited nếu đã cài.
+Predict climbs, audit party supplies, and diagnose conflicting shortcuts.	Ước tính leo núi, kiểm tra tiếp tế và phát hiện trùng phím.
+Prefer enabled external QoL mods when features overlap	Ưu tiên mod tiện ích khác khi trùng chức năng
+PreferExternalQualityOfLifeMods	Ưu tiên mod tiện ích khác
+Preferred display name	Tên hiển thị mong muốn
+Presets change only explicit PEAK Troll Mod settings and never touch another mod's configuration.	Mẫu chỉ đổi các thiết lập PEAK Troll Mod được chỉ định, không sửa cấu hình mod khác.
+Prevent local death and full pass-out and continuously clear every negative stamina-bar condition, including carried-weight encumbrance, while enabled.	Ngăn bạn chết, bất tỉnh hoàn toàn và liên tục xóa trạng thái xấu trên thanh thể lực, kể cả mang nặng.
+Prevent other scouts from withdrawing items from your equipped backpack when you or the current host runs a compatible protocol.	Ngăn người khác lấy đồ từ ba lô đang đeo khi bạn hoặc chủ phòng có giao thức tương thích.
+Preview a held consumable's stamina and condition-bar changes before using it. Automatically yields to the standalone Effect Preview mod.	Xem thay đổi thể lực và trạng thái của đồ cầm trước khi dùng. Nhường cho mod Effect Preview riêng nếu có.
+Profile code copied.	Đã sao chép mã hồ sơ.
+Profile name	Tên hồ sơ
+Profile: 	Hồ sơ: 
+Profiles	Hồ sơ
+Progression	Mở khóa
+Quality of Life	Tiện ích
+Quantity  	Số lượng  
+Queued Item Storms for eligible lobby players. Last result: 	Đã xếp hàng mưa vật phẩm. Kết quả cuối: 
+Queued Mandrake Rain for eligible lobby players. Last result: 	Đã xếp hàng mưa Mandrake. Kết quả cuối: 
+Queued One Live One for eligible lobby players. Last result: 	Đã xếp hàng hiệu ứng một quả thật. Kết quả cuối: 
+Queued showers for eligible lobby players. Last result: 	Đã xếp hàng mưa thuốc nổ. Kết quả cuối: 
+Quick Access	Truy cập nhanh
+Quick Backpack  [	Mở ba lô nhanh  [
+QuickBackpack	Ba lô nhanh
+QuickBackpackKey	Phím mở nhanh ba lô
+RAGDOLL	LÀM NGÃ
+RANDOM NEAR PLAYER	NGẪU NHIÊN GẦN NGƯỜI CHƠI
+RE-ARM FOR SELECTED	CHUẨN BỊ LẠI CHO MỤC TIÊU
+READY	SẴN SÀNG
+READY — CLICK TO UNREADY	SẴN SÀNG — BẤM ĐỂ HỦY
+REAL LUGGAGE DIRECTIONS: OFF	CHỈ ĐƯỜNG TỚI HÀNH LÝ THẬT: TẮT
+REAL LUGGAGE DIRECTIONS: ON	CHỈ ĐƯỜNG TỚI HÀNH LÝ THẬT: BẬT
+REASSIGN 	ĐỔI PHÍM 
+RECONNECT LAST LOBBY	VÀO LẠI PHÒNG GẦN NHẤT
+REFRESH	LÀM MỚI
+REFRESH CAPABILITIES	KIỂM TRA LẠI TÍNH NĂNG
+REFRESH LOADED MODS	LÀM MỚI DANH SÁCH MOD
+REQUEST SCOUTMASTER	YÊU CẦU SCOUTMASTER
+REQUEST ZOMBIE	YÊU CẦU THÂY MA
+RESCUE	CỨU HỘ
+RESET	ĐẶT LẠI
+RESET 1.0x	TRẢ VỀ 1.0x
+RESET ALL TROLL EFFECTS	ĐẶT LẠI MỌI HIỆU ỨNG MOD
+RESET DEFAULT	KHÔI PHỤC MẶC ĐỊNH
+RESET PLAYER	ĐẶT LẠI NGƯỜI CHƠI
+RESET TRAP: ENABLED	BẪY ĐẶT LẠI: ĐÃ BẬT
+RESTORE HUMAN	TRỞ LẠI DẠNG NGƯỜI
+RESTORE MOD STATE	KHÔI PHỤC TRẠNG THÁI MOD
+RESTORE SELECTED	KHÔI PHỤC NGƯỜI ĐÃ CHỌN
+RESTORE SELECTED VOICE	BẬT LẠI GIỌNG ĐÃ CHỌN
+RESTORE SELF	KHÔI PHỤC BẢN THÂN
+RESUME	TIẾP TỤC
+RESURRECT EVERYONE	HỒI SINH MỌI NGƯỜI
+RESURRECT SELECTED	HỒI SINH NGƯỜI ĐÃ CHỌN
+RESURRECT SELF	HỒI SINH BẢN THÂN
+RETURN TO EXPEDITION START	VỀ ĐIỂM BẮT ĐẦU CHUYẾN ĐI
+RETURN TO SCOUT	TRỞ VỀ NGƯỜI ĐƯỢC QUAN SÁT
+REVIVE BESIDE SPECTATED	HỒI SINH CẠNH NGƯỜI ĐANG XEM
+RUN AWAY	CHẠY ĐI
+RUN SAVED COMBO	CHẠY CHUỖI ĐÃ LƯU
+Radius in metres around an ignited campfire affected by the death trap (3-50).	Bán kính tác động của bẫy chết quanh lửa trại, đơn vị mét (3–50).
+Ragdoll	Thả lỏng cơ thể
+Ragdoll strength  	Lực ngã  
+Ragdolled lobby players toward nearby drops. Last result: 	Đã cho người chơi ngã về phía dốc gần đó. Kết quả cuối: 
+Raise the next hosted lobby's player cap. Automatically yields to the standalone PEAK Unlimited mod.	Tăng giới hạn phòng tạo tiếp theo. Tự ưu tiên mod PEAK Unlimited riêng nếu có.
+Random direction	Hướng ngẫu nhiên
+Random item from the loaded catalog	Vật phẩm ngẫu nhiên trong danh mục đã nạp
+Readiness, compatibility, persistent friend preferences, and recovery.	Sẵn sàng, tương thích, tùy chọn bạn bè và khôi phục.
+Real Luggage Directions	Chỉ đường hành lý thật
+Real luggage directions 	Chỉ đường tới hành lý thật 
+Real networked PEAK dynamite; target needs no mod.	Thuốc nổ thật đồng bộ qua mạng; mục tiêu không cần cài mod.
+Real networked PEAK items; target needs no mod.	Vật phẩm thật đồng bộ qua mạng; mục tiêu không cần cài mod.
+RealLuggageDirections	Chỉ đường hành lý thật
+RealLuggageMaximumDistance	Phạm vi tìm hành lý thật
+RecentEffects	Hiệu ứng gần đây
+RecentItems	Vật phẩm gần đây
+Reconnect	Kết nối lại
+Reconnect state preservation 	Giữ trạng thái khi kết nối lại 
+Recovery can revive you when required and clears residual rigidbody velocity after moving.	Khôi phục có thể hồi sinh khi cần và xóa quán tính còn lại sau khi di chuyển.
+Recovery uses recorded safe ground and native PEAK warps. Cleanup only touches state and objects tracked by this mod.	Khôi phục bằng vị trí an toàn đã ghi và dịch chuyển của PEAK. Chỉ dọn trạng thái, đối tượng do mod này quản lý.
+Red	Đỏ
+Reduce repeated/flashing troll effects	Giảm hiệu ứng lặp và nhấp nháy
+ReduceFlashingTrollEffects	Giảm hiệu ứng nhấp nháy
+Reduced flashing currently caps and slows repeated Phantom Pings and removes menu press pulses; it does not alter unrelated game cinematics.	Giảm nhấp nháy giới hạn và làm chậm đánh dấu giả lặp lại, bỏ nháy nút menu; không đổi cảnh phim của game.
+ReleaseKey	Phím ngắt điều khiển
+Remember favorite and recently used items/effect previews.	Lưu vật phẩm và hiệu ứng yêu thích, dùng gần đây.
+Removed 	Đã xóa 
+Removed favorite 	Đã bỏ yêu thích 
+Requested 	Đã yêu cầu 
+Require a second click for elimination and bulk reset.	Yêu cầu bấm lần hai để hạ gục hoặc đặt lại hàng loạt.
+Restored all actual appearances locally.	Đã khôi phục ngoại hình thật trên máy bạn.
+Restored all available incoming voices.	Đã khôi phục tất cả giọng nói nghe được.
+Reusable fixed-order sequence for the selected scout:	Chuỗi cố định dùng lại cho người đã chọn:
+Review the profile name above. Accept applies only the documented PEAK Troll Mod setting allowlist.	Kiểm tra tên hồ sơ phía trên. Chấp nhận chỉ áp dụng các thiết lập PEAK Troll Mod được cho phép.
+Runner: 	Chuỗi đang chạy: 
+Runtime capabilities refreshed.	Đã kiểm tra lại tính năng khả dụng.
+Runtime clip: 	Đoạn âm thanh đã nạp: 
+Runtime item catalog refreshed.	Đã cập nhật danh mục vật phẩm đang nạp.
+Runtime-discovered 3D sound cues and voice capability status.	Âm thanh 3D đang được game nạp và trạng thái giọng nói.
+SAVE CURRENT	LƯU HIỆN TẠI
+SAVE PREFERENCE	LƯU TÙY CHỌN
+SCAN	QUÉT
+SCOUT	NGƯỜI CHƠI
+SCOUT  ↑	NGƯỜI CHƠI  ↑
+SCOUT  ↗	NGƯỜI CHƠI  ↗
+SCOUT COMPASS: OFF	LA BÀN ĐỒNG ĐỘI: TẮT
+SCOUT COMPASS: ON	LA BÀN ĐỒNG ĐỘI: BẬT
+SCOUTMASTER	SCOUTMASTER
+SCOUTS	NGƯỜI CHƠI
+SHOW	HIỆN
+SHUFFLE EVERYONE LOCALLY	TRỘN NGOẠI HÌNH TRÊN MÁY
+SKY HIGH	PHÓNG LÊN CAO
+SOMETHING'S THERE	CÓ GÌ Ở ĐÓ
+SPAWN ON GROUND NEAR TARGET	ĐẶT GẦN MỤC TIÊU
+SPECTATOR FREE CAM	CAMERA QUAN SÁT TỰ DO
+STABILIZE	ỔN ĐỊNH NHÂN VẬT
+STAND & STARE BEHIND	ĐỨNG NHÌN TỪ PHÍA SAU
+START	BẮT ĐẦU
+START AS SKELETON: OFF	BẮT ĐẦU DẠNG BỘ XƯƠNG: TẮT
+START AS SKELETON: ON	BẮT ĐẦU DẠNG BỘ XƯƠNG: BẬT
+START DYNAMITE SHOWER	BẮT ĐẦU MƯA THUỐC NỔ
+START ITEM STORM	BẮT ĐẦU MƯA VẬT PHẨM
+START ROUND	BẮT ĐẦU ROUND
+STOP	DỪNG
+STOP + CLEAN	DỪNG + CLEAN
+STOP CHAOS	DỪNG HỖN LOẠN
+STOP FLIGHT + VELOCITY	DỪNG BAY VÀ QUÁN TÍNH
+STOP MIND CONTROL	DỪNG ĐIỀU KHIỂN
+SUPPRESS SUMMIT HELICOPTER	CHẶN TRỰC THĂNG TRÊN ĐỈNH
+SUPPRESSION ENABLED	ĐÃ BẬT CHẶN
+SURVIVAL	SINH TỒN
+SWAP WITH RANDOM PLAYER	ĐỔI VỚI NGƯỜI NGẪU NHIÊN
+Safe Troll Effect Cards	Thẻ xem trước hiệu ứng
+Safe preview started for 	Đang xem trước 
+Safe remote Photon Voice rerouting is not exposed.	Không có giao diện chuyển hướng Photon Voice từ xa an toàn.
+Safe reserve  	Thể lực dự phòng  
+Safety	Giới hạn
+Saved locally by Steam ID; aliases and colors appear only in this mod.	Lưu trên máy theo Steam ID; biệt danh và màu chỉ hiện trong mod này.
+SavedPlayers	Người chơi đã lưu
+SavedProfileCode	Mã hồ sơ đã lưu
+Scale	Tỉ lệ
+Scale PEAK camera shake from 0 (off) to 1 (normal).	Mức rung camera PEAK từ 0 (tắt) tới 1 (bình thường).
+Scale campfire food and backpack spawns for players above the vanilla four-player count.	Tăng đồ ăn lửa trại và ba lô cho người vượt mức bốn người gốc.
+Scale food + backpacks	Tăng đồ ăn và ba lô theo nhóm
+ScaleCampfireSupplies	Tiếp tế lửa trại theo số người
+Scan enabled BepInEx plugins	Quét plugin BepInEx đang bật
+Scan height  	Độ cao kiểm tra  
+Scenario code copied.	Kịch bản code copied.
+Scout	Người chơi
+Scout Compass 	La bàn đồng đội 
+Scout ESP outline color as #RRGGBB.	Màu viền người chơi, dạng #RRGGBB.
+Scout navigation plus customizable through-wall outlines, labels, and tracers.	Tìm đồng đội và tùy chỉnh đường viền, tên, đường chỉ xuyên vật cản.
+ScoutCompass	La bàn đồng đội
+Scoutmaster	Scoutmaster
+Scoutmaster ESP outline color as #RRGGBB.	Màu viền Scoutmaster, dạng #RRGGBB.
+Scoutmaster events	Sự kiện Scoutmaster
+Scouts	Người chơi
+Search	Tìm kiếm
+Search range  	Phạm vi tìm  
+Search, preview, favorite, give, or place runtime-discovered PEAK items.	Tìm, xem, đánh dấu yêu thích, trao và đặt vật phẩm của game.
+Seconds a suspicious state must persist before the doctor recommends a repair (6-30).	Thời gian trạng thái bất thường phải kéo dài trước khi đề nghị sửa (6–30 giây).
+Secretly waits for the selected scout to approach the final summit, then drops their held item, maxes Hunger, locks stamina, spawns a zombie behind them, and launches them toward the horizon.	Chờ mục tiêu tới gần đỉnh cuối rồi làm rơi đồ cầm, tăng đói tối đa, khóa thể lực, tạo thây ma phía sau và phóng ra xa.
+Select a player from the roster.	Chọn một người trong danh sách.
+Select a target first.	Hãy chọn mục tiêu trước.
+Select one target first.	Hãy chọn một mục tiêu trước.
+Selected 	Đã chọn 
+Selected: 	Đã chọn: 
+Sent lobby players sky high. Last result: 	Đã phóng người chơi lên cao. Kết quả cuối: 
+Sent lobby players toward the far horizon. Last result: 	Đã phóng người chơi ra xa. Kết quả cuối: 
+Separate hard cap for caller-owned Dynamite Shower items (1-128).	Giới hạn riêng cho thuốc nổ do bạn tạo (1–128).
+Separate hard cap for caller-owned Item Storm objects (1-128).	Giới hạn riêng cho vật phẩm mưa do bạn tạo (1–128).
+Serialized per-Steam-player aliases, colors, voice settings, and random-target exclusions.	Dữ liệu biệt danh, màu, âm lượng và loại trừ mục tiêu ngẫu nhiên theo Steam ID.
+Session overview, capabilities, and emergency cleanup.	Tổng quan phiên chơi, tính năng khả dụng và dọn dẹp khẩn cấp.
+Settings	Thiết lập
+Shareable scenario code	Mã chia sẻ kịch bản
+Show a compact teammate stamina and condition panel.	Hiện bảng thể lực và trạng thái đồng đội thu gọn.
+Show category/name and distance labels above ESP outlines.	Hiện loại, tên và khoảng cách trên đường viền nhìn xuyên.
+Show direction and distance to the nearest unopened genuine luggage while ignoring native and mod-created mirages.	Chỉ hướng, khoảng cách tới hành lý thật chưa mở gần nhất; bỏ qua ảo ảnh.
+Show individual condition changes beneath the held-item stamina forecast.	Hiện thay đổi từng trạng thái dưới ước tính thể lực của vật phẩm.
+Show safe, non-executing effect previews before use.	Hiện xem trước hiệu ứng không thực thi trước khi dùng.
+Show the current spectator target, altitude, status, and shortcuts.	Hiện người đang quan sát, độ cao, trạng thái và phím tắt.
+Show the direction and distance to the nearest other living scout.	Hiện hướng và khoảng cách tới đồng đội còn sống gần nhất.
+Show the searchable item spawner page in the F7 menu.	Hiện trang tạo vật phẩm có tìm kiếm trong menu F7.
+Shows Item Storm quantity, height, spread, interval, and item selection mode.	Xem số lượng, độ cao, độ phân tán, nhịp thả và cách chọn vật phẩm.
+Shows flight speed, boost behavior, recipient requirements, and cleanup behavior.	Xem tốc độ bay, tăng tốc, yêu cầu của người nhận và cách kết thúc.
+Shows force and recovery behavior before the native synchronized fall is requested.	Xem lực và cách phục hồi trước khi yêu cầu ngã đồng bộ.
+Shows pattern, ping count, interval, audience, and cancellation behavior.	Xem kiểu đánh dấu, số lượng, khoảng cách thời gian, người xem và cách hủy.
+Shows the configured direction, force, and ragdoll handoff before a launch.	Xem hướng, lực và chuyển động cơ thể trước khi phóng.
+Shows the result before consumption	Xem kết quả trước khi dùng
+Shows the selected condition and bounded amount without changing scout afflictions.	Xem trạng thái và mức tác động, không thay đổi nhân vật.
+Shows the selected harmless visual decoy behavior and lifetime.	Xem cách hoạt động và thời gian tồn tại của hình ảnh giả.
+Sky height  	Độ cao phóng  
+Slow and cap repeated visual troll effects such as Phantom Pings.	Làm chậm và giới hạn hiệu ứng hình ảnh lặp như đánh dấu giả.
+Smart Quality of Life	Tiện ích thông minh
+Softlock Doctor: 	Khôi phục khi kẹt: 
+Spawn Item	Tạo vật phẩm
+Spawn distance 	Khoảng cách tạo 
+Spawn one additional marshmallow per player above four, including late joiners.	Thêm một kẹo dẻo cho mỗi người vượt bốn, kể cả người vào muộn.
+Spawn roughly one additional backpack per four players above the vanilla cap.	Thêm khoảng một ba lô cho mỗi bốn người vượt giới hạn gốc.
+Spawning	Tạo đối tượng
+SpectateFreeCameraKey	Phím camera tự do
+SpectateGhostPings	Đánh dấu khi chết
+SpectateNextKey	Phím xem người tiếp theo
+SpectateOverlay	Bảng thông tin quan sát
+SpectatePreviousKey	Phím xem người trước
+SpongePEAKLib: not used; Photon RaiseEvent provides the required validated mod channel.	Không dùng SpongePEAKLib; kênh mod được xác thực qua Photon RaiseEvent.
+Spread  	Độ phân tán  
+Stamina lock  	Thời gian khóa thể lực  
+Stamina reserve required for a climb to be rated safe (0-50 percent).	Thể lực dự phòng cần để đánh giá leo an toàn (0–50%).
+StaminaEffectPreview	Xem tác động lên thể lực
+StaminaEffectPreviewDetails	Chi tiết tác động thể lực
+Start each island expedition with PEAK's native Book of Bones skeleton state.	Bắt đầu chuyến đi trên đảo bằng dạng bộ xương của Sách Xương.
+Start reference unavailable.	Chưa xác định điểm bắt đầu.
+StartAsSkeleton	Bắt đầu dạng bộ xương
+Starting difficulty  	Độ khó ban đầu  
+Statue	Tượng
+Status Effect	Hiệu ứng trạng thái
+Status effect	Hiệu ứng trạng thái
+Status requires the selected target's mod.	Mục tiêu cần cài mod để nhận trạng thái này.
+Stopped	Đã dừng
+Summarize synchronized party supplies and highlight practical loadout gaps without moving items.	Tổng hợp đồ tiếp tế nhóm đã đồng bộ và chỉ ra đồ còn thiếu, không di chuyển vật phẩm.
+Summit Saboteur	Phá rối trên đỉnh
+Supply drops	Thả tiếp tế
+Suppress the summit rescue sequence locally and advertise suppression to compatible clients.	Chặn cứu hộ trên đỉnh ở máy bạn và thông báo cho máy tương thích.
+SuppressSummitHelicopter	Chặn trực thăng trên đỉnh
+Suppresses the summit rescue on compatible clients; the host must be compatible to stop completion.	Chặn cứu hộ trên đỉnh ở máy tương thích; cần chủ phòng tương thích để ngăn hoàn thành.
+TARGET TO ME	ĐƯA MỤC TIÊU TỚI MÌNH
+TO END	TỚI ĐIỂM CUỐI
+TO START	VỀ ĐIỂM ĐẦU
+TRACERS: OFF	ĐƯỜNG CHỈ: TẮT
+TRACERS: ON	ĐƯỜNG CHỈ: BẬT
+TROLL\nMOD	TROLL\nMOD
+Target	Mục tiêu
+Target, manipulate, and mess with players in your lobby.	Chọn mục tiêu và thao tác với người chơi trong phòng.
+Target-only decoy pings; one bounded sequence per viewer.	Đánh dấu giả chỉ mục tiêu thấy; mỗi người xem một chuỗi có giới hạn.
+Target: 	Mục tiêu: 
+Targeting	Chọn mục tiêu
+Team Status Panel	Bảng trạng thái nhóm
+Team panel scale (0.7-1.4).	Tỉ lệ bảng nhóm (0,7–1,4).
+TeamStatusDistance	Phạm vi bảng nhóm
+TeamStatusPanel	Bảng trạng thái nhóm
+TeamStatusScale	Tỉ lệ bảng nhóm
+TeamStatusShowSelf	Hiện bản thân trong bảng nhóm
+Text size  	Cỡ chữ  
+TextScale	Cỡ chữ
+The host can offer its current profile. Every recipient must explicitly accept before settings change.	Chủ phòng có thể đề nghị hồ sơ hiện tại. Mỗi người phải chấp nhận trước khi thiết lập thay đổi.
+The igniter is affected when inside the radius. Local Immortality still blocks your own death.	Người châm lửa bị tác động nếu trong bán kính. Bất tử vẫn ngăn bạn chết.
+ThirdPersonCameraDistance	Khoảng cách camera thứ ba
+This mode changes only your rendered view of scouts. It never changes Steam, Photon, username, account identity, or the other player's saved cosmetics.	Chỉ thay đổi ngoại hình bạn nhìn thấy. Không đổi Steam, Photon, tên người chơi, tài khoản hay đồ trang trí đã lưu của họ.
+This page remains visible so capability loss after a PEAK update is explicit rather than silently unsafe.	Trang vẫn hiển thị để bạn biết tính năng nào mất sau khi game cập nhật.
+This plugin exposes no BepInEx settings.	Plugin này không có thiết lập BepInEx.
+Time  	Thời gian  
+To confuse another participant, that observer still needs PEAK Troll Mod so their own client can render the swap.	Người xem khác cần cài PEAK Troll Mod để máy họ hiển thị việc đổi ngoại hình.
+Toggle PEAK's free camera while spectating.	Bật tắt camera tự do của PEAK khi quan sát.
+Toggle built-ins and safely edit loaded BepInEx mod settings.	Bật tắt tiện ích và chỉnh cấu hình mod BepInEx đang nạp.
+Tracers	Đường chỉ
+Transparency	Độ trong suốt
+Transparency 	Độ trong suốt 
+Trigger distance  	Khoảng cách kích hoạt  
+Type: 	Loại: 
+UI name color	Màu tên trong menu
+UI scale 	Tỉ lệ hiển thị 
+UI scale (0.75-1.5).	Tỉ lệ hiển thị menu (0,75–1,5).
+UNAVAILABLE	CHƯA KHẢ DỤNG
+UNDO LAST LOCAL	HOÀN TÁC LẦN CUỐI TRÊN MÁY
+UNSTUCK — LAST SAFE GROUND	THOÁT KẸT — VỊ TRÍ AN TOÀN
+Unavailable	Chưa khả dụng
+Unknown	Chưa rõ
+Unlimited Lobby	Phòng không giới hạn
+Unlimited lobby cap  	Giới hạn người trong phòng  
+UnlockAllBadges	Mở mọi huy hiệu
+UnlockAllCosmetics	Mở mọi đồ trang trí
+Use brighter text and stronger status contrast.	Dùng chữ sáng hơn và màu trạng thái tương phản hơn.
+Use the module toggles above for this mod.	Dùng các công tắc tính năng phía trên cho mod này.
+VANILLA+	VANILLA+
+VANISH WHEN CLOSE	BIẾN MẤT KHI TỚI GẦN
+VOICE SWAP / TALK WHILE KO'D	ĐỔI GIỌNG / NÓI KHI BẤT TỈNH
+Vanilla+	Vanilla+
+Version 	Phiên bản 
+Version 0.5.0.1	Phiên bản 0.5.0.1
+Voice volume  	Âm lượng giọng nói  
+Volume 	Âm lượng 
+WRONG MOUNTAIN	NHẦM NGỌN NÚI
+When a compatible host sends an offer, Accept and Decline controls appear here.	Khi chủ phòng tương thích gửi đề nghị, nút chấp nhận và từ chối sẽ hiện tại đây.
+When joining an expedition already in progress, automatically revive the local scout beside the nearest living player.	Khi vào chuyến đi đang diễn ra, tự hồi sinh bên người còn sống gần nhất.
+When reconnecting, preserve the local scout's restored inventory, statuses, thorns, extra stamina, and petrification state.	Khi kết nối lại, giữ túi đồ đã khôi phục, trạng thái, gai, thể lực bổ sung và hóa đá.
+When this client observes a campfire ignition, eliminate every living scout within the configured radius. Takes precedence over the reset trap.	Khi thấy đốt lửa trại, hạ gục người còn sống trong bán kính. Ưu tiên hơn bẫy đặt lại.
+When this client observes a campfire ignition, teleport all scouts back to the first segment start.	Khi máy bạn thấy lửa trại được đốt, đưa mọi người về đầu chặng đầu tiên.
+Where No Wait places a late joiner: nearest living scout, lowest living scout, or the active checkpoint.	Điểm đến cho người vào muộn: người còn sống gần nhất, thấp nhất hoặc điểm nghỉ hiện tại.
+While reaching toward a steep surface, estimate the climb time, stamina cost, and safety reserve to its next standable ledge.	Khi vươn tay tới vách dốc, ước tính thời gian leo, thể lực cần và dự phòng để tới gờ đứng tiếp theo.
+Window opacity (0.55-1.0).	Độ đậm cửa sổ (0,55–1,0).
+World	Thế giới
+Wrong Mountain needs at least two available scouts.	Cần ít nhất hai người chơi khả dụng.
+Wrong Mountain needs one selected scout so it can choose a different partner.	Hãy chọn một người để ghép với một người khác.
+Wrong Mountain swaps the selected scout with a random different scout, gives both random items, then throws them in opposite directions.	Đổi vị trí mục tiêu với người khác ngẫu nhiên, trao đồ cho cả hai rồi phóng về hai hướng ngược nhau.
+Yes	Có
+Yield duplicate built-in features to enabled PeakStatsEx and EasyBackpack components.	Nhường chức năng trùng cho PeakStatsEx và EasyBackpack khi đang bật.
+Yielding to EasyBackpack	Ưu tiên EasyBackpack
+Yielding to PeakStatsEx	Ưu tiên PeakStatsEx
+ZOMBIE	THÂY MA
+ZOMBIES	THÂY MA
+Zombie	Thây ma
+Zombie ESP outline color as #RRGGBB.	Màu viền thây ma, dạng #RRGGBB.
+Zombies	Thây ma
+[W] [A] [S] [D] move   [SPACE] up   [CTRL] down   [SHIFT] boost	[WASD] di chuyển  [SPACE] lên  [CTRL] xuống  [SHIFT] tăng tốc
+com.dougl.peaktrollmod	com.dougl.peaktrollmod
+disabled and original fuel restored.	đã tắt và trả lại nhiên liệu gốc.
+disabled.	đã tắt.
+enabled.	đã bật.
+every compatible viewer	mọi người xem tương thích
+i  Runtime Discovery	i  Tài nguyên game đã nạp
+i  What Other Players See	i  Người chơi khác nhìn thấy gì
+m high	m cao
+vanilla/other	game gốc / khác
+↗  Infinite Rescue Claw Reach	↗  Tầm móc cứu hộ vô hạn
+↗  Movement	↗  Di chuyển
+↶  Mirage Registry	↶  Danh sách ảo ảnh
+↻  Reconnect & Emergency Recovery	↻  Kết nối lại và khôi phục
+↻  Tracked Cleanup	↻  Dọn đối tượng mod đã tạo
+↻ Recent	↻ Gần đây
+⌁  Diagnostics	⌁  Chẩn đoán
+⌂  Home	⌂  Trang chủ
+⌖  ESP	⌖  Nhìn xuyên vật cản
+⌖  Navigation & Campfire	⌖  Chỉ đường và lửa trại
+⌖  Phantom Pings	⌖  Đánh dấu giả
+⌖  Scout Compass	⌖  La bàn đồng đội
+⌖  Teleport	⌖  Dịch chuyển
+⌨  Hotkey Conflict Doctor	⌨  Kiểm tra trùng phím
+⏱  Chaos Combo Builder	⏱  Tạo chuỗi hiệu ứng
+▣  Inventory & Reset	▣  Túi đồ và đặt lại
+▣  Party Supply Advisor	▣  Kiểm tra đồ tiếp tế nhóm
+▣  Save & Share	▣  Lưu và chia sẻ
+▣  Spawning	▣  Tạo đối tượng
+▦  Items	▦  Vật phẩm
+▦  Runtime Item Search	▦  Tìm vật phẩm đang được nạp
+▲  World	▲  Thế giới
+△  Smart Climb Forecast	△  Ước tính khả năng leo
+▶  Round Control & Sharing	▶  Điều khiển lượt và chia sẻ
+◆  Built-in Quality of Life	◆  Tiện ích tích hợp
+◆  One-Click Profiles	◆  Hồ sơ nhanh
+◆  Profiles	◆  Hồ sơ
+◆  Selected Item	◆  Vật phẩm đã chọn
+◆  Session	◆  Phiên chơi
+◇  Smart QoL	◇  Tiện ích thông minh
+◈  Chaos	◈  Hỗn loạn
+◈  Chaos Controller	◈  Điều khiển hỗn loạn
+◈  ESP Outline Customization	◈  Tùy chỉnh đường viền
+◉  Mirage Clarity & Rescue	◉  Ẩn ảo ảnh và cứu hộ
+◉  The Looker	◉  Quái quan sát
+◉  Visibility & Speed	◉  Ẩn hiện và tốc độ
+◎  ESP Visibility	◎  Hiển thị xuyên vật cản
+◎  Lobby	◎  Phòng chơi
+◎  Lobby Profile Sync	◎  Đồng bộ hồ sơ trong phòng
+◎  Lobby Readiness	◎  Sẵn sàng trong phòng
+●  Appearance	●  Ngoại hình
+●  Local Appearance Swap	●  Đổi ngoại hình trên máy mình
+☂  Item Storm	☂  Mưa vật phẩm
+★  Director	★  Kịch bản
+★  Local Collection Unlocks	★  Mở khóa bộ sưu tập cục bộ
+★  Scenario	★  Kịch bản
+★ Favorites	★ Yêu thích
+★ REMOVE FAVORITE	★ BỎ YÊU THÍCH
+☆ ADD FAVORITE	☆ THÊM YÊU THÍCH
+☠  Fake Enemy	☠  Quái giả
+☠  Presets & Sabotage	☠  Mẫu và hiệu ứng nghịch
+☠  Scoutmaster Ambush	☠  Phục kích bằng Scoutmaster
+☷  Item Catalog	☷  Danh mục vật phẩm
+☷  Live Host Dashboard	☷  Bảng theo dõi của chủ phòng
+☷  Loaded Mods	☷  Mod đang được nạp
+☷  Mod Config	☷  Cấu hình mod
+♟  Mirage Scout	♟  Đồng đội ảo
+♟  Mushroom Zombie	♟  Thây ma nấm
+♟  Player	♟  Người chơi
+♟  Player Readiness & Versions	♟  Sẵn sàng và phiên bản
+♥  Health & Status	♥  Sức khỏe và trạng thái
+♥  Persistent Player Preferences	♥  Tùy chọn riêng từng người
+♪  Audio	♪  Âm thanh
+♪  Fake Sound Cue	♪  Âm thanh giả
+♬  Voice	♬  Giọng nói
+⚕  Emergency Recovery	⚕  Khôi phục khẩn cấp
+⚙  Interface, Accessibility & Safety	⚙  Hiển thị, hỗ trợ và giới hạn
+⚙  Scenario Rules	⚙  Quy tắc kịch bản
+⚙  Selected Mod & Settings	⚙  Mod đã chọn và cấu hình
+⚙  Settings	⚙  Thiết lập
+⚠ Disabled when unresolved	⚠ Tắt khi chưa xác định
+⚠ Unsupported	⚠ Chưa hỗ trợ
+✚  Anti-Softlock Doctor	✚  Khắc phục kẹt nhân vật
+✦  Mirage	✦  Ảo ảnh
+✦  Mod Status	✦  Trạng thái mod
+✦  Ping Placement	✦  Đặt bằng đánh dấu
+✦  Safe Effect Preview	✦  Xem trước hiệu ứng
+✹  Dynamite Shower	✹  Mưa thuốc nổ
+🔒 Host Only	🔒 Chỉ chủ phòng
+🔒 Photon host authority	🔒 Quyền chủ phòng Photon
+🟡 Everyone Needs Mod	🟡 Cả nhóm cần cài mod
+🟡 Target needs this mod	🟡 Mục tiêu cần cài mod
+🟢 Anyone	🟢 Mọi người
+🟢 Local / harmless visual	🟢 Cục bộ / chỉ hình ảnh

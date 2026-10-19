@@ -1,0 +1,222 @@
+{
+  "Roots": [
+    {
+      "Id": "FuniPeakModz-PEAK_Troll_Mod",
+      "Name": "PEAK Troll Mod / F7 — bản tương thích",
+      "Description": "F7: đồ, tele, hồi sinh, thể lực. Đã sửa ID người chơi cho game hiện tại; đây là bản Teck tương thích, không phải phát hành chính thức của tác giả. Có gói Tiếng Việt / English, F10 đổi ngôn ngữ."
+    },
+    {
+      "Id": "glarmer-PEAK_Unlimited",
+      "Name": "PEAK Unlimited",
+      "Description": "Chơi hơn 4 người; chủ phòng cần cài. F2 mở thiết lập. Có gói Tiếng Việt / English, F10 đổi ngôn ngữ."
+    },
+    {
+      "Id": "Yueby-ItemInfo",
+      "Name": "ItemInfo",
+      "Description": "Hiện thông tin khi cầm vật phẩm. Có gói Tiếng Việt / English, F10 đổi ngôn ngữ."
+    },
+    {
+      "Id": "tony4twenty-Start_With_Backpacks",
+      "Name": "Start With Backpacks",
+      "Description": "Bắt đầu có ba lô; chỉ chủ phòng cần cài. Có gói Tiếng Việt / English, F10 đổi ngôn ngữ."
+    },
+    {
+      "Id": "tony4twenty-Healing_Campfires",
+      "Name": "Healing Campfires",
+      "Description": "Hồi phục, hồi sinh bên lửa trại; cả nhóm nên cài cùng bộ. Có gói Tiếng Việt / English, F10 đổi ngôn ngữ."
+    }
+  ],
+  "Packages": [
+    {
+      "Id": "glarmer-PEAK_Unlimited",
+      "Name": "PEAK_Unlimited",
+      "Version": "4.0.1",
+      "File": "glarmer-PEAK_Unlimited-4.0.1.zip",
+      "Sha256": "82445dd71d55ef82d6f83d4255a3536082b0e57ac71cff4ae0d4d014b602cf6e",
+      "Url": "https://gcdn.thunderstore.io/live/repository/packages/glarmer-PEAK_Unlimited-4.0.1.zip",
+      "Page": "https://thunderstore.io/c/peak/p/glarmer/PEAK_Unlimited/",
+      "Dependencies": [
+        "BepInEx-BepInExPack_PEAK",
+        "Teck-PEAK_Bilingual"
+      ],
+      "Loader": false
+    },
+    {
+      "Id": "Yueby-ItemInfo",
+      "Name": "ItemInfo",
+      "Version": "0.1.7",
+      "File": "Yueby-ItemInfo-0.1.7.zip",
+      "Sha256": "856d97d1a2137f6e1bdd60429fba8fb961935f76a12c50d84ec7521eca6f166d",
+      "Url": "https://gcdn.thunderstore.io/live/repository/packages/Yueby-ItemInfo-0.1.7.zip",
+      "Page": "https://thunderstore.io/c/peak/p/Yueby/ItemInfo/",
+      "Dependencies": [
+        "BepInEx-BepInExPack_PEAK",
+        "Teck-PEAK_Bilingual"
+      ],
+      "Loader": false
+    },
+    {
+      "Id": "PEAKModding-ModConfig",
+      "Name": "ModConfig",
+      "Version": "1.8.1",
+      "File": "PEAKModding-ModConfig-1.8.1.zip",
+      "Sha256": "8dee16cfd32c13b3de6bac7d2af8232ada0513772c19ee651b3eaaac8527ba13",
+      "Url": "https://gcdn.thunderstore.io/live/repository/packages/PEAKModding-ModConfig-1.8.1.zip",
+      "Page": "https://thunderstore.io/c/peak/p/PEAKModding/ModConfig/",
+      "Dependencies": [
+        "BepInEx-BepInExPack_PEAK",
+        "PEAKModding-PEAKLib_Core",
+        "PEAKModding-PEAKLib_UI"
+      ],
+      "Loader": false
+    },
+    {
+      "Id": "tony4twenty-Start_With_Backpacks",
+      "Name": "Start_With_Backpacks",
+      "Version": "1.1.0",
+      "File": "tony4twenty-Start_With_Backpacks-1.1.0.zip",
+      "Sha256": "713d965e39b1a42320c75dc3347ae01bd15d4518db34ff2618659e3936dc546f",
+      "Url": "https://gcdn.thunderstore.io/live/repository/packages/tony4twenty-Start_With_Backpacks-1.1.0.zip",
+      "Page": "https://thunderstore.io/c/peak/p/tony4twenty/Start_With_Backpacks/",
+      "Dependencies": [
+        "BepInEx-BepInExPack_PEAK",
+        "Teck-PEAK_Bilingual"
+      ],
+      "Loader": false
+    },
+    {
+      "Id": "tony4twenty-Healing_Campfires",
+      "Name": "Healing_Campfires",
+      "Version": "4.5.1",
+      "File": "tony4twenty-Healing_Campfires-4.5.1.zip",
+      "Sha256": "a761744bb3257a3a5cb4cbf3e62f8d0a809464f97dc0a98108399c7a41599ee1",
+      "Url": "https://gcdn.thunderstore.io/live/repository/packages/tony4twenty-Healing_Campfires-4.5.1.zip",
+      "Page": "https://thunderstore.io/c/peak/p/tony4twenty/Healing_Campfires/",
+      "Dependencies": [
+        "BepInEx-BepInExPack_PEAK",
+        "PEAKModding-PEAKLib_Core",
+        "Snosz-PhotonCustomPropsUtils",
+        "Teck-PEAK_Bilingual"
+      ],
+      "Loader": false
+    },
+    {
+      "Id": "PEAKModding-PEAKLib_UI",
+      "Name": "PEAKLib_UI",
+      "Version": "1.7.2",
+      "File": "PEAKModding-PEAKLib_UI-1.7.2.zip",
+      "Sha256": "483c8b6ca0e07c3eed5e3de48c933e0feac4bde5c5fa6761b325d89018fe76e6",
+      "Url": "https://gcdn.thunderstore.io/live/repository/packages/PEAKModding-PEAKLib_UI-1.7.2.zip",
+      "Page": "https://thunderstore.io/c/peak/p/PEAKModding/PEAKLib_UI/",
+      "Dependencies": [
+        "BepInEx-BepInExPack_PEAK",
+        "PEAKModding-PEAKLib_Core"
+      ],
+      "Loader": false
+    },
+    {
+      "Id": "MonoDetour-MonoDetour_BepInEx_5",
+      "Name": "MonoDetour_BepInEx_5",
+      "Version": "0.7.16",
+      "File": "MonoDetour-MonoDetour_BepInEx_5-0.7.16.zip",
+      "Sha256": "bbfd2eab63c8fb36e61258b98ab092738aaf426f80490ac4db017bdbc849283c",
+      "Url": "https://gcdn.thunderstore.io/live/repository/packages/MonoDetour-MonoDetour_BepInEx_5-0.7.16.zip",
+      "Page": "https://thunderstore.io/c/peak/p/MonoDetour/MonoDetour_BepInEx_5/",
+      "Dependencies": [
+        "MonoDetour-MonoDetour"
+      ],
+      "Loader": false
+    },
+    {
+      "Id": "MonoDetour-MonoDetour",
+      "Name": "MonoDetour",
+      "Version": "0.7.16",
+      "File": "MonoDetour-MonoDetour-0.7.16.zip",
+      "Sha256": "d5e32dc8bd8ed9afad83573282edbb7e96839376336b2f0328820441985b2cab",
+      "Url": "https://gcdn.thunderstore.io/live/repository/packages/MonoDetour-MonoDetour-0.7.16.zip",
+      "Page": "https://thunderstore.io/c/peak/p/MonoDetour/MonoDetour/",
+      "Dependencies": [],
+      "Loader": false
+    },
+    {
+      "Id": "BepInEx-BepInExPack_PEAK",
+      "Name": "BepInExPack_PEAK",
+      "Version": "5.4.75301",
+      "File": "BepInEx-BepInExPack_PEAK-5.4.75301.zip",
+      "Sha256": "a71432613ab0b2f560046bc341d949c9d853b4f5d5223ab5e7f2ef1f113522e7",
+      "Url": "https://gcdn.thunderstore.io/live/repository/packages/BepInEx-BepInExPack_PEAK-5.4.75301.zip",
+      "Page": "https://thunderstore.io/c/peak/p/BepInEx/BepInExPack_PEAK/",
+      "Dependencies": [],
+      "Loader": true
+    },
+    {
+      "Id": "PEAKModding-PEAKLib_Core",
+      "Name": "PEAKLib_Core",
+      "Version": "1.7.2",
+      "File": "PEAKModding-PEAKLib_Core-1.7.2.zip",
+      "Sha256": "6c653bd788c18c6265bfcd32b9aab1e048e2edd865098ff4646e2d34160f6d59",
+      "Url": "https://gcdn.thunderstore.io/live/repository/packages/PEAKModding-PEAKLib_Core-1.7.2.zip",
+      "Page": "https://thunderstore.io/c/peak/p/PEAKModding/PEAKLib_Core/",
+      "Dependencies": [
+        "BepInEx-BepInExPack_PEAK",
+        "PEAKModding-SoftDependencyFix",
+        "MonoDetour-MonoDetour_BepInEx_5"
+      ],
+      "Loader": false
+    },
+    {
+      "Id": "Snosz-PhotonCustomPropsUtils",
+      "Name": "PhotonCustomPropsUtils",
+      "Version": "1.1.0",
+      "File": "Snosz-PhotonCustomPropsUtils-1.1.0.zip",
+      "Sha256": "95e334a98c5feaf6a7b05e81604ca9f5dc7a80431b459d6831cc90a50d7b0ac2",
+      "Url": "https://gcdn.thunderstore.io/live/repository/packages/Snosz-PhotonCustomPropsUtils-1.1.0.zip",
+      "Page": "https://thunderstore.io/c/peak/p/Snosz/PhotonCustomPropsUtils/",
+      "Dependencies": [
+        "BepInEx-BepInExPack_PEAK"
+      ],
+      "Loader": false
+    },
+    {
+      "Id": "PEAKModding-SoftDependencyFix",
+      "Name": "SoftDependencyFix",
+      "Version": "1.0.0",
+      "File": "PEAKModding-SoftDependencyFix-1.0.0.zip",
+      "Sha256": "24700c6c986846899731f4b68f9bcff06dba09bca3203fe5e47231f37d041abe",
+      "Url": "https://gcdn.thunderstore.io/live/repository/packages/PEAKModding-SoftDependencyFix-1.0.0.zip",
+      "Page": "https://thunderstore.io/c/peak/p/PEAKModding/SoftDependencyFix/",
+      "Dependencies": [
+        "BepInEx-BepInExPack_PEAK",
+        "MonoDetour-MonoDetour_BepInEx_5"
+      ],
+      "Loader": false
+    },
+    {
+      "Id": "FuniPeakModz-PEAK_Troll_Mod",
+      "Name": "PEAK_Troll_Mod",
+      "Version": "0.5.0 + Teck compat 1",
+      "File": "FuniPeakModz-PEAK_Troll_Mod-0.5.0-teck1.zip",
+      "Sha256": "92fa8163f4c9d732b6ab48a4301388fe0dcf47177ef2f14fdbf4fde42102c016",
+      "Url": "https://gcdn.thunderstore.io/live/repository/packages/FuniPeakModz-PEAK_Troll_Mod-0.5.0.zip",
+      "Page": "https://thunderstore.io/c/peak/p/FuniPeakModz/PEAK_Troll_Mod/",
+      "Dependencies": [
+        "BepInEx-BepInExPack_PEAK",
+        "Teck-PEAK_Bilingual"
+      ],
+      "Loader": false
+    },
+    {
+      "Id": "Teck-PEAK_Bilingual",
+      "Name": "Teck PEAK — Tiếng Việt / English",
+      "Version": "1.0.0",
+      "File": "Teck-PEAK_Bilingual-1.0.0.zip",
+      "Sha256": "4187803dc1502c2a32230676b8bc5dee383ff0fcdc9d71fce557f24768818e04",
+      "Url": "",
+      "Page": "",
+      "Dependencies": [
+        "BepInEx-BepInExPack_PEAK"
+      ],
+      "Loader": false
+    }
+  ]
+}

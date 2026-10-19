@@ -1,0 +1,7 @@
+Build verification — 2026-10-19
+
+Microsoft Defender custom directory scan of this release before packaging reported no threats. This is a point-in-time result, not proof of safety or a full source audit. The EXE is unsigned; a future scan can differ. No Defender protection settings or exclusions were changed.
+
+PEAK Troll Mod is modified and recompiled (assembly 0.5.0.1); its source is included. Other mod archives are pinned third-party packages. SHA256 protects integrity, not trustworthiness. If Defender flags a file, stop using it and keep the detection details for investigation.
+
+Installer self-tests use fake game directories and never run fake PEAK.exe files. The new localization layer has not yet been verified in a live PEAK lobby. Translation logic and installer tests are included.
